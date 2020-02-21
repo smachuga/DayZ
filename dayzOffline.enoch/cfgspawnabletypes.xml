@@ -759,9 +759,9 @@
 	<type name="NBCJacketGray">
 	</type>
 	<type name="Flashlight">
-		<cargo chance="1.00">
+		<attachments chance="1.00">
 			<item name="Battery9V" chance="1.00" />
-		</cargo>
+		</attachments>
 	</type>
 	<!-- START OF ZOMBIES -->
 	<!-- ________________ ARMY __________________ -->
@@ -2142,6 +2142,11 @@
 	<type name="Mosin9130">
 		<attachments chance="0.50">
 			<item name="Mosin_Compensator" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="Mp133Shotgun">
+		<attachments chance="0.25">
+			<item name="FNP45_MRDSOptic" chance="1.00" />
 		</attachments>
 	</type>
 	<!-- FUTURE

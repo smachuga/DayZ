@@ -2,11 +2,11 @@
 <randompresets>
 		<cargo chance="0.50" name="foodHermit">
 				<item name="TunaCan" chance="0.11" />
-				<item name="TunaCan_Opened" chance="0.01" />
+				<item name="TunaCan_Opened" chance="0.04" />
 				<item name="SardinesCan" chance="0.11" />
-				<item name="SardinesCan_Opened" chance="0.01" />
-				<item name="Apple" chance="0.15" />
-				<item name="WaterBottle" chance="0.15" />>
+				<item name="SardinesCan_Opened" chance="0.04" />
+				<item name="Apple" chance="0.10" />
+				<item name="WaterBottle" chance="0.10" />>
 		</cargo>
 		<cargo chance="0.18" name="foodVillage">
 				<item name="SodaCan_Cola" chance="0.05" />
