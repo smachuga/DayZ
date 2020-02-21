@@ -758,6 +758,11 @@
 	</type>
 	<type name="NBCJacketGray">
 	</type>
+	<type name="Flashlight">
+		<cargo chance="1.00">
+			<item name="Battery9V" chance="1.00" />
+		</cargo>
+	</type>
 	<!-- START OF ZOMBIES -->
 	<!-- ________________ ARMY __________________ -->
 	<type name="ZmbM_PatrolNormal_Autumn">
@@ -2129,6 +2134,16 @@
 			<item name="Mag_Saiga_Drum20Rnd" chance="0.20" />
 		</attachments>
 	</type>
+	<type name="Repeater">
+		<attachments chance="0.10">
+			<item name="ImprovisedSuppressor" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="Mosin9130">
+		<attachments chance="0.50">
+			<item name="Mosin_Compensator" chance="0.50" />
+		</attachments>
+	</type>
 	<!-- FUTURE
 	<type name="AugSteyr">
 		<attachments chance="0.10">
@@ -3143,19 +3158,19 @@
 			<item name="CivSedanWheel" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CarRadiator" chance="0.60" />
+			<item name="CarRadiator" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CarBattery" chance="0.60" />
+			<item name="CarBattery" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="SparkPlug" chance="0.60" />
+			<item name="SparkPlug" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="0.40" />
+			<item name="HeadlightH7" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="0.40" />
+			<item name="HeadlightH7" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CivSedanDoors_Driver_Black" chance="0.30" />
