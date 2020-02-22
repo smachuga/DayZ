@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 
 <spawnabletypes>
-	<damage min="0.3" max="0.7" />
+	<damage min="0.1" max="0.4" />
 	<type name="Barrel_Blue">
 		<hoarder />
 	</type>
@@ -3047,6 +3047,9 @@
 		<attachments chance="1.00">
 			<item name="CivSedanTrunk" chance="0.20" />
 		</attachments>
+		<attachments chance="1.00">
+			<item name="Canabis" chance="0.50" />
+		</attachments>
 	</type>
 	<type name="CivilianSedan_Wine">
 		<attachments chance="1.00">
@@ -3094,6 +3097,9 @@
 		<attachments chance="1.00">
 			<item name="CivSedanTrunk_Wine" chance="0.20" />
 		</attachments>
+		<attachments chance="1.00">
+			<item name="Canabis" chance="0.50" />
+		</attachments>
 	</type>
 	<type name="CivilianSedan_Black">
 		<attachments chance="1.00">
@@ -3140,6 +3146,9 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CivSedanTrunk_Black" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Canabis" chance="0.50" />
 		</attachments>
 	</type>
 	<!-- -->
