@@ -54,7 +54,7 @@
     </event>
     <event name="AnimalCow">
         <nominal>8</nominal>
-        <min>3</min>
+        <min>1</min>
         <max>5</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
@@ -302,9 +302,9 @@
         </children>
     </event>
     <event name="InfectedFirefighter">
-        <nominal>50</nominal>
-        <min>25</min>
-        <max>100</max>
+        <nominal>10</nominal>
+        <min>2</min>
+        <max>30</max>
         <lifetime>3</lifetime>
         <restock>0</restock>
         <saferadius>100</saferadius>
@@ -361,9 +361,9 @@
         </children>
     </event>
     <event name="InfectedMedic">
-        <nominal>50</nominal>
-        <min>25</min>
-        <max>100</max>
+        <nominal>25</nominal>
+        <min>12</min>
+        <max>50</max>
         <lifetime>3</lifetime>
         <restock>0</restock>
         <saferadius>100</saferadius>
@@ -389,9 +389,9 @@
         </children>
     </event>
     <event name="InfectedPolice">
-        <nominal>50</nominal>
-        <min>25</min>
-        <max>100</max>
+        <nominal>25</nominal>
+        <min>12</min>
+        <max>50</max>
         <lifetime>3</lifetime>
         <restock>0</restock>
         <saferadius>100</saferadius>
@@ -477,9 +477,9 @@
         </children>
     </event>
     <event name="InfectedVillage">
-        <nominal>50</nominal>
-        <min>25</min>
-        <max>100</max>
+        <nominal>25</nominal>
+        <min>12</min>
+        <max>50</max>
         <lifetime>3</lifetime>
         <restock>0</restock>
         <saferadius>100</saferadius>
@@ -603,8 +603,8 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="20" lootmin="10" max="5" min="2" type="Wreck_Mi8"/>
-            <child lootmax="20" lootmin="10" max="5" min="2" type="Wreck_UH1Y"/>
+            <child lootmax="20" lootmin="10" max="8" min="1" type="Wreck_Mi8"/>
+            <child lootmax="20" lootmin="10" max="4" min="1" type="Wreck_UH1Y"/>
         </children>
     </event>
     <event name="StaticPoliceCar">

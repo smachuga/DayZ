@@ -758,13 +758,8 @@
 	</type>
 	<type name="NBCJacketGray">
 	</type>
-	<type name="Flashlight">
-		<attachments chance="1.00">
-			<item name="Battery9V" chance="1.00" />
-		</attachments>
-	</type>
-	<!-- START OF ZOMBIES -->
-	<!-- ________________ ARMY __________________ -->
+	<!--START OF ZOMBIES  -->
+	<!-- -----------------------------ARMY----------------------------- -->
 	<type name="ZmbM_PatrolNormal_Autumn">
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
@@ -2207,7 +2202,7 @@
 -->
 	<!--  END OF WEAPONS  -->
 	<type name="PersonalRadio">
-		<attachments chance="1.00">
+		<attachments chance="0.50">
 			<item name="Battery9V" chance="1.00" />
 		</attachments>
 	</type>
