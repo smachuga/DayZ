@@ -1215,7 +1215,7 @@
 		<attachments preset="hatsCitySkate" />
 		<attachments preset="bagsCity" />
 	</type>
-	<!-- _______________________ Industrial _______________________ -->
+	<!-- -----------------------------Industrial----------------------------- -->
 	<type name="ZmbF_BlueCollarFat_Blue">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
@@ -1424,12 +1424,12 @@
 		<attachments preset="bagsIndustrial" />
 		<attachments preset="vestsIndustrial" />
 	</type>
-	<!-- _________________________ FireFighter _____________________ -->
+	<!-- -----------------------------FireFighter----------------------------- -->
 	<type name="ZmbM_FirefighterNormal">
 		<cargo preset="toolsCity" />
 		<attachments preset="hatsFirefighter" />
 	</type>
-	<!-- ___________________________ Medic ___________________________ -->
+	<!-- -----------------------------Medic----------------------------- -->
 	<type name="ZmbF_DoctorSkinny">
 		<cargo preset="toolsMedic" />
 		<attachments preset="hatsMedic" />
@@ -1468,7 +1468,7 @@
 	<type name="ZmbM_PatientSkinny">
 		<cargo preset="toolsMedic" />
 	</type>
-	<!-- ______________________ Police _________________________ -->
+	<!-- -----------------------------Police----------------------------- -->
 	<type name="ZmbF_PoliceWomanNormal">
 		<cargo preset="toolsPolice" />
 		<attachments preset="glassesVillage" />
@@ -1487,7 +1487,7 @@
 		<attachments preset="hatsPolice" />
 		<attachments preset="vestsPolice" />
 	</type>
-	<!-- ___________________ Prisoner __________________________ -->
+	<!-- -----------------------------Prisoner----------------------------- -->
 	<type name="ZmbM_PrisonerSkinny">
 		<cargo chance="0.10">
 			<item name="Rope" chance="0.14" />
@@ -1495,11 +1495,11 @@
 		<attachments preset="glassesVillage" />
 		<attachments preset="hatsPrisoner" />
 	</type>
-	<!-- ____________________________Religious____________________________ -->
+	<!-- -----------------------------Religious----------------------------- -->
 	<type name="ZmbM_priestPopSkinny">
 		<cargo preset="foodHermit" />
 	</type>
-	<!-- ____________________________Solitude____________________________ -->
+	<!-- -----------------------------Solitude----------------------------- -->
 	<type name="ZmbF_HikerSkinny_Blue">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
@@ -1607,7 +1607,7 @@
 		<attachments preset="bagsHunter" />
 		<attachments preset="vestsHunter" />
 	</type>
-	<!-- ____________________________Village____________________________ -->
+	<!-- -----------------------------Village----------------------------- -->
 	<type name="ZmbF_MilkMaidOld_Beige">
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
@@ -1843,7 +1843,7 @@
 		<attachments chance="0.50">
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.50">
 			<item name="TLRLight" chance="1.00" />
 		</attachments>
 	</type>
@@ -1900,9 +1900,6 @@
 		</attachments>
 		<attachments chance="0.60">
 			<item name="AKS74U_Bttstck" chance="0.30" />
-		</attachments>		
-		<attachments chance="1.00">
-			<item name="AK_WoodBttstck" chance="1.00" />
 		</attachments>
 		<attachments chance="0.60">
 			<item name="AK74_Hndgrd" chance="0.30" />
@@ -1912,6 +1909,9 @@
 		</attachments>
 		<attachments chance="0.60">
 			<item name="AK_PlasticHndgrd" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="AK_WoodBttstck" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="AK_WoodHndgrd" chance="1.00" />
@@ -2009,55 +2009,6 @@
 	</type>
 	<type name="AK101_Black">
 		<attachments chance="0.30">
-			<item name="AK_FoldingBttstck" chance="0.30" />
-		</attachments>
-		<attachments chance="0.30">
-			<item name="AK_WoodBttstck" chance="0.30" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="AK_PlasticBttstck" chance="1.00" />
-		</attachments>
-		<attachments chance="0.30">
-			<item name="AK_WoodHndgrd" chance="0.30" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="AK_PlasticHndgrd" chance="1.00" />
-		</attachments>
-		<attachments chance="0.30">
-			<item name="KashtanOptic" chance="0.50" />
-			<item name="PSO11Optic" chance="0.30" />
-		</attachments>
-		<attachments chance="0.30">
-			<item name="AK_Suppressor" chance="0.50" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Mag_AK101_30Rnd" chance="0.50" />
-		</attachments>
-	</type>
-	<type name="AK101_Green">
-		<attachments chance="0.30">
-			<item name="AK_FoldingBttstck" chance="0.30" />
-		</attachments>
-		<attachments chance="0.30">
-			<item name="AK_WoodBttstck" chance="0.30" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="AK_PlasticBttstck" chance="1.00" />
-		</attachments>
-		<attachments chance="0.30">
-			<item name="AK_WoodHndgrd" chance="0.30" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="AK_PlasticHndgrd" chance="1.00" />
-		</attachments>
-		<attachments chance="0.30">
-			<item name="KashtanOptic" chance="0.50" />
-			<item name="PSO11Optic" chance="0.30" />
-		</attachments>
-		<attachments chance="0.30">
-			<item name="AK_Suppressor" chance="0.50" />
-		</attachments>
-		<attachments chance="1.00">
 			<item name="Mag_AK101_30Rnd" chance="0.50" />
 		</attachments>
 	</type>
@@ -2104,10 +2055,10 @@
 		</attachments>
 	</type>
 	<type name="Colt1911">
-		<attachments chance="0.05">
+		<attachments chance="0.45">
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
-		<attachments chance="0.15">
+		<attachments chance="0.95">
 			<item name="Mag_1911_7Rnd" chance="1.00" />
 		</attachments>
 	</type>
@@ -2115,12 +2066,12 @@
 		<attachments chance="0.15">
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
-		<attachments chance="0.15">
+		<attachments chance="0.95">
 			<item name="Mag_1911_7Rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="B95">
-		<attachments chance="0.18">
+		<attachments chance="0.50">
 			<item name="HuntingOptic" chance="1.00" />
 		</attachments>
 	</type>
@@ -2945,7 +2896,7 @@
 			<item name="CarBattery" chance="0.60" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="SparkPlug" chance="0.60" />
+			<item name="SparkPlug" chance="0.90" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="HeadlightH7" chance="0.40" />
@@ -3057,16 +3008,16 @@
 	<!-- -->
 	<type name="CivilianSedan">
 		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="0.80" />
+			<item name="CivSedanWheel" chance="0.90" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="0.80" />
+			<item name="CivSedanWheel" chance="0.90" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="0.80" />
+			<item name="CivSedanWheel" chance="0.90" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="0.80" />
+			<item name="CivSedanWheel" chance="0.90" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CarRadiator" chance="0.60" />
@@ -3075,7 +3026,7 @@
 			<item name="CarBattery" chance="0.60" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="SparkPlug" chance="0.60" />
+			<item name="SparkPlug" chance="0.90" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="HeadlightH7" chance="0.40" />
@@ -3163,10 +3114,10 @@
 			<item name="CivSedanWheel" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CarRadiator" chance="0.80" />
+			<item name="CarRadiator" chance="0.90" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CarBattery" chance="0.80" />
+			<item name="CarBattery" chance="0.90" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="SparkPlug" chance="0.80" />
@@ -3480,7 +3431,7 @@
 			<item name="Sedan_02_Trunk_Grey" chance="0.20" />
 		</attachments>
 	</type>
-	<!--
+<!--
 	<type name="V3S_Chassis">
 		<attachments chance="1.00">
 			<item name="V3SWheel" chance="0.60" />
