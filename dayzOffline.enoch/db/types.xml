@@ -8719,10 +8719,10 @@
     <usage name="Military" />
   </type>
   <type name="M4A1">
-    <nominal>20</nominal>
+    <nominal>5</nominal>
     <lifetime>10800</lifetime>
     <restock>1800</restock>
-    <min>15</min>
+    <min>2</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -8747,7 +8747,7 @@
     <nominal>5</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
-    <min>4</min>
+    <min>2</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -8853,15 +8853,18 @@
     <category name="weapons" />
   </type>
   <type name="M4_RISHndgrd_Green">
-    <nominal>0</nominal>
+    <nominal>5</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
-    <min>0</min>
+    <min>2</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier3" />
+    <value name="Tier4" />
   </type>
   <type name="M4_Suppressor">
     <nominal>5</nominal>
