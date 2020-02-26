@@ -9,13 +9,19 @@
         <delay>5</delay>
         <onconnect>1</onconnect>
         <repeat>60</repeat>
-        <text>Super Loot Weekend is over. Loot has been leveled with a "normal" boost.</text>
+        <text>GET TO THE CHOPPA EVENT this weekend 2/28 thru 3/1</text>
     </message>
     <message>
         <delay>5</delay>
         <onconnect>1</onconnect>
         <repeat>60</repeat>
-        <text>Rules and Info at discord.gg/Et3bMS</text>
+        <text>More info at discord.gg/6qF9MZJ **Updated Link**</text>
+    </message>
+    <message>
+        <delay>5</delay>
+        <onconnect>1</onconnect>
+        <repeat>60</repeat>
+        <text>Support the server at https://server.nitrado.net/donations/donate/3448520</text>
     </message>
     <message>
       <deadline>180</deadline>

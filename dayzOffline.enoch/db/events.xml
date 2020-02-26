@@ -201,7 +201,7 @@
         </children>
     </event>
     <event name="InfectedArmy">
-        <nominal>65</nominal>
+        <nominal>85</nominal>
         <min>25</min>
         <max>250</max>
         <lifetime>3</lifetime>
@@ -470,16 +470,16 @@
             <child lootmax="5" lootmin="1" max="0" min="5" type="ZmbM_HikerSkinny_Blue"/>
             <child lootmax="5" lootmin="1" max="0" min="5" type="ZmbM_HikerSkinny_Green"/>
             <child lootmax="5" lootmin="1" max="0" min="5" type="ZmbM_HikerSkinny_Yellow"/>
-            <child lootmax="5" lootmin="1" max="0" min="5" type="ZmbM_HunterOld_Autumn"/>
-            <child lootmax="5" lootmin="1" max="0" min="5" type="ZmbM_HunterOld_Spring"/>
-            <child lootmax="5" lootmin="1" max="0" min="5" type="ZmbM_HunterOld_Summer"/>
-            <child lootmax="5" lootmin="1" max="0" min="5" type="ZmbM_HunterOld_Winter"/>
+            <child lootmax="5" lootmin="2" max="0" min="5" type="ZmbM_HunterOld_Autumn"/>
+            <child lootmax="5" lootmin="2" max="0" min="5" type="ZmbM_HunterOld_Spring"/>
+            <child lootmax="5" lootmin="2" max="0" min="5" type="ZmbM_HunterOld_Summer"/>
+            <child lootmax="5" lootmin="2" max="0" min="5" type="ZmbM_HunterOld_Winter"/>
         </children>
     </event>
     <event name="InfectedVillage">
         <nominal>50</nominal>
         <min>25</min>
-        <max>100</max>
+        <max>120</max>
         <lifetime>3</lifetime>
         <restock>0</restock>
         <saferadius>100</saferadius>
@@ -498,10 +498,10 @@
             <child lootmax="5" lootmin="1" max="0" min="5" type="ZmbF_MilkMaidOld_Black"/>
             <child lootmax="5" lootmin="1" max="0" min="5" type="ZmbF_MilkMaidOld_Green"/>
             <child lootmax="5" lootmin="1" max="0" min="5" type="ZmbF_MilkMaidOld_Grey"/>
-            <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbF_VillagerOld_Blue"/>
-            <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbF_VillagerOld_Green"/>
-            <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbF_VillagerOld_Red"/>
-            <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbF_VillagerOld_White"/>
+            <child lootmax="5" lootmin="1" max="0" min="5" type="ZmbF_VillagerOld_Blue"/>
+            <child lootmax="5" lootmin="1" max="0" min="5" type="ZmbF_VillagerOld_Green"/>
+            <child lootmax="5" lootmin="1" max="0" min="5" type="ZmbF_VillagerOld_Red"/>
+            <child lootmax="5" lootmin="1" max="0" min="5" type="ZmbF_VillagerOld_White"/>
             <child lootmax="5" lootmin="0" max="0" min="6" type="ZmbM_FarmerFat_Beige"/>
             <child lootmax="5" lootmin="0" max="0" min="6" type="ZmbM_FarmerFat_Blue"/>
             <child lootmax="5" lootmin="0" max="0" min="6" type="ZmbM_FarmerFat_Brown"/>
@@ -603,8 +603,8 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="30" lootmin="20" max="5" min="3" type="Wreck_Mi8"/>
-            <child lootmax="30" lootmin="20" max="5" min="3" type="Wreck_UH1Y"/>
+            <child lootmax="30" lootmin="8" max="5" min="3" type="Wreck_Mi8"/>
+            <child lootmax="30" lootmin="12" max="5" min="3" type="Wreck_UH1Y"/>
 	    <child lootmax="30" lootmin="20" max="5" min="3" type="Land_Wreck_C130J"/>
         </children>
     </event>

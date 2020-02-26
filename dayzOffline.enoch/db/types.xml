@@ -76,7 +76,7 @@
     <category name="weapons" />
   </type>
   <type name="AK74_Green">
-    <nominal>4</nominal>
+    <nominal>5</nominal>
     <lifetime>10800</lifetime>
     <restock>0</restock>
     <min>3</min>
@@ -213,15 +213,16 @@
     <category name="weapons" />
   </type>
   <type name="AK_FoldingBttstck_Green">
-    <nominal>0</nominal>
+    <nominal>5</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
-    <min>0</min>
+    <min>2</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
+    <usage name="Military" />
   </type>
   <type name="AK_PlasticBttstck">
     <nominal>5</nominal>
@@ -247,15 +248,16 @@
     <category name="weapons" />
   </type>
   <type name="AK_PlasticBttstck_Green">
-    <nominal>0</nominal>
+    <nominal>5</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
-    <min>0</min>
+    <min>2</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
+    <usage name="Military" />
   </type>
   <type name="AK_PlasticHndgrd">
     <nominal>5</nominal>
@@ -294,21 +296,22 @@
     <category name="weapons" />
   </type>
   <type name="AK_RailHndgrd_Green">
-    <nominal>0</nominal>
+    <nominal>5</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
-    <min>0</min>
+    <min>2</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     <category name="weapons" />
+    <usage name="Military" />
   </type>
   <type name="AK_Suppressor">
-    <nominal>5</nominal>
+    <nominal>15</nominal>
     <lifetime>7200</lifetime>
     <restock>14400</restock>
-    <min>2</min>
+    <min>5</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -340,15 +343,16 @@
     <category name="weapons" />
   </type>
   <type name="AK_WoodBttstck_Camo">
-    <nominal>0</nominal>
+    <nominal>15</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
-    <min>0</min>
+    <min>5</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
+    <usage name="Military" />
   </type>
   <type name="AK_WoodHndgrd">
     <nominal>5</nominal>
@@ -374,15 +378,16 @@
     <category name="weapons" />
   </type>
   <type name="AK_WoodHndgrd_Camo">
-    <nominal>0</nominal>
+    <nominal>15</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
-    <min>0</min>
+    <min>5</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
+    <usage name="Military" />
   </type>
   <type name="AgaricusMushroom">
     <nominal>0</nominal>
@@ -434,14 +439,16 @@
   <type name="AmmoBox">
     <nominal>10</nominal>
     <lifetime>3888000</lifetime>
-    <restock>0</restock>
+    <restock>3600</restock>
     <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="containers" />
     <usage name="Military" />
+    <value name="Tier3" />
+    <value name="Tier4" />
   </type>
   <type name="AmmoBox_00buck_10rnd">
     <nominal>40</nominal>
@@ -2693,7 +2700,7 @@
   </type>
   <type name="Bone">
     <nominal>0</nominal>
-    <lifetime>3600</lifetime>
+    <lifetime>10800</lifetime>
     <restock>0</restock>
     <min>0</min>
     <quantmin>-1</quantmin>
@@ -3448,7 +3455,7 @@
     <usage name="Village" />
   </type>
   <type name="CharcoalTablets">
-    <nominal>20</nominal>
+    <nominal>25</nominal>
     <lifetime>10800</lifetime>
     <restock>0</restock>
     <min>12</min>
@@ -3461,7 +3468,7 @@
     <usage name="Medic" />
   </type>
   <type name="Chemlight_Blue">
-    <nominal>50</nominal>
+    <nominal>25</nominal>
     <lifetime>3600</lifetime>
     <restock>0</restock>
     <min>30</min>
@@ -3475,7 +3482,7 @@
     <usage name="Village" />
   </type>
   <type name="Chemlight_Green">
-    <nominal>50</nominal>
+    <nominal>25</nominal>
     <lifetime>3600</lifetime>
     <restock>0</restock>
     <min>30</min>
@@ -3489,7 +3496,7 @@
     <usage name="Village" />
   </type>
   <type name="Chemlight_Red">
-    <nominal>50</nominal>
+    <nominal>25</nominal>
     <lifetime>3600</lifetime>
     <restock>0</restock>
     <min>30</min>
@@ -3503,7 +3510,7 @@
     <usage name="Village" />
   </type>
   <type name="Chemlight_White">
-    <nominal>50</nominal>
+    <nominal>25</nominal>
     <lifetime>3600</lifetime>
     <restock>0</restock>
     <min>30</min>
@@ -3517,7 +3524,7 @@
     <usage name="Village" />
   </type>
   <type name="Chemlight_Yellow">
-    <nominal>50</nominal>
+    <nominal>25</nominal>
     <lifetime>3600</lifetime>
     <restock>0</restock>
     <min>30</min>
@@ -3531,7 +3538,7 @@
     <usage name="Village" />
   </type>
   <type name="ChernarusMap">
-    <nominal>50</nominal>
+    <nominal>25</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>30</min>
@@ -9728,17 +9735,15 @@
     <usage name="Hunting" />
   </type>
   <type name="MediumTent">
-    <nominal>30</nominal>
+    <nominal>50</nominal>
     <lifetime>3888000</lifetime>
-    <restock>0</restock>
+    <restock>3600</restock>
     <min>20</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0" />
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="tools" />
-    <usage name="Town" />
-    <usage name="Village" />
     <usage name="Hunting" />
   </type>
   <type name="Megaphone">
@@ -9799,7 +9804,7 @@
     <value name="Tier4" />
   </type>
   <type name="MilitaryBelt">
-    <nominal>15</nominal>
+    <nominal>30</nominal>
     <lifetime>7200</lifetime>
     <restock>1800</restock>
     <min>5</min>
@@ -10079,11 +10084,13 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
-    <usage name="Town" />
-    <usage name="Village" />
-    <usage name="Hunting" />
+    <usage name="Military" />    
     <value name="Tier2" />
     <value name="Tier3" />
+    <usage name="Hunting" />    
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
   </type>
   <type name="Mosin9130_Black">
     <nominal>0</nominal>
@@ -10106,8 +10113,7 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
-    <usage name="Town" />
-    <usage name="Village" />
+    <usage name="Military" />
     <usage name="Hunting" />
     <value name="Tier2" />
     <value name="Tier3" />
@@ -11916,6 +11922,10 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
+    <usage name="Hunting" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
     <usage name="Military" />
     <value name="Tier2" />
     <value name="Tier3" />
