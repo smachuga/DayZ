@@ -150,7 +150,7 @@
 		</cargo>
 	</type>
 	<type name="Bear_Beige">
-		<cargo chance="0.9">
+		<cargo chance="0.90">
 			<item name="Battery9V" chance="0.50" />
 			<item name="NVGoggles" chance="0.01" />
 			<item name="StoneKnife" chance="0.25" />
@@ -158,7 +158,7 @@
 		</cargo>
 	</type>
 	<type name="Bear_Dark">
-		<cargo chance="0.9">
+		<cargo chance="0.90">
 			<item name="Battery9V" chance="0.50" />
 			<item name="NVGoggles" chance="0.01" />
 			<item name="StoneKnife" chance="0.25" />
@@ -166,7 +166,7 @@
 		</cargo>
 	</type>
 	<type name="Bear_Pink">
-		<cargo chance="0.9">
+		<cargo chance="0.90">
 			<item name="Battery9V" chance="0.50" />
 			<item name="NVGoggles" chance="0.01" />
 			<item name="StoneKnife" chance="0.25" />
@@ -174,7 +174,7 @@
 		</cargo>
 	</type>
 	<type name="Bear_White">
-		<cargo chance="0.9">
+		<cargo chance="0.90">
 			<item name="Battery9V" chance="0.50" />
 			<item name="NVGoggles" chance="0.01" />
 			<item name="StoneKnife" chance="0.25" />
@@ -768,8 +768,8 @@
 		</cargo>
 	</type>
 	<type name="PowerGenerator">
-		<attachments chance="0.5">
-			<item name="SparkPlug" chance="1" />
+		<attachments chance="0.50">
+			<item name="SparkPlug" chance="1.00" />
 		</attachments>
 	</type>
 	<!--START OF ZOMBIES  -->
@@ -2101,10 +2101,10 @@
 		</attachments>
 	</type>
 	<type name="Engraved1911">
-		<attachments chance="1">
+		<attachments chance="1.00">
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
-		<attachments chance="1">
+		<attachments chance="1.00">
 			<item name="Mag_1911_7Rnd" chance="1.00" />
 		</attachments>
 	</type>
@@ -2124,12 +2124,12 @@
 		</attachments>
 	</type>
 	<type name="Repeater">
-		<attachments chance="1">
+		<attachments chance="1.00">
 			<item name="ImprovisedSuppressor" chance="0.50" />
 		</attachments>
 	</type>
 	<type name="Mosin9130">
-		<attachments chance="1">
+		<attachments chance="1.00">
 			<item name="Mosin_Compensator" chance="0.50" />
 		</attachments>
 	</type>

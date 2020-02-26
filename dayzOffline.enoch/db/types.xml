@@ -308,14 +308,14 @@
     <usage name="Military" />
   </type>
   <type name="AK_Suppressor">
-    <nominal>15</nominal>
+    <nominal>5</nominal>
     <lifetime>7200</lifetime>
     <restock>14400</restock>
-    <min>5</min>
+    <min>2</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
     <usage name="Military" />
   </type>
@@ -440,7 +440,7 @@
     <nominal>10</nominal>
     <lifetime>3888000</lifetime>
     <restock>3600</restock>
-    <min>0</min>
+    <min>2</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -3455,7 +3455,7 @@
     <usage name="Village" />
   </type>
   <type name="CharcoalTablets">
-    <nominal>25</nominal>
+    <nominal>20</nominal>
     <lifetime>10800</lifetime>
     <restock>0</restock>
     <min>12</min>
@@ -3471,7 +3471,7 @@
     <nominal>25</nominal>
     <lifetime>3600</lifetime>
     <restock>0</restock>
-    <min>30</min>
+    <min>15</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -3485,7 +3485,7 @@
     <nominal>25</nominal>
     <lifetime>3600</lifetime>
     <restock>0</restock>
-    <min>30</min>
+    <min>15</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -3499,7 +3499,7 @@
     <nominal>25</nominal>
     <lifetime>3600</lifetime>
     <restock>0</restock>
-    <min>30</min>
+    <min>15</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -3513,7 +3513,7 @@
     <nominal>25</nominal>
     <lifetime>3600</lifetime>
     <restock>0</restock>
-    <min>30</min>
+    <min>15</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -3527,7 +3527,7 @@
     <nominal>25</nominal>
     <lifetime>3600</lifetime>
     <restock>0</restock>
-    <min>30</min>
+    <min>15</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -3538,7 +3538,7 @@
     <usage name="Village" />
   </type>
   <type name="ChernarusMap">
-    <nominal>25</nominal>
+    <nominal>50</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>30</min>
@@ -8751,7 +8751,7 @@
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
     <category name="weapons" />
     <usage name="Military" />
     <value name="Tier3" />
@@ -10087,13 +10087,10 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
-    <usage name="Military" />    
-    <value name="Tier2" />
-    <value name="Tier3" />
+    <usage name="Military" />  
     <usage name="Hunting" />    
     <value name="Tier2" />
     <value name="Tier3" />
-    <value name="Tier4" />
   </type>
   <type name="Mosin9130_Black">
     <nominal>0</nominal>
@@ -11928,7 +11925,6 @@
     <usage name="Hunting" />
     <value name="Tier2" />
     <value name="Tier3" />
-    <value name="Tier4" />
     <usage name="Military" />
     <value name="Tier2" />
     <value name="Tier3" />

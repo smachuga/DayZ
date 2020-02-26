@@ -56,7 +56,7 @@
 			<item name="Battery9V" chance="0.07" />
 			<item name="Matchbox" chance="0.07" />
             <item name="SewingKit" chance="0.07" />
-			<item name="CanOpener" chance="0.05" />
+			<item name="CanOpener" chance="0.15" />
 			<item name="Rope" chance="0.07" />
 			<item name="Rag" chance="0.07" />
 			<item name="Flashlight" chance="0.07" />
