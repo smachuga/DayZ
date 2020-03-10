@@ -9,19 +9,13 @@
         <delay>5</delay>
         <onconnect>1</onconnect>
         <repeat>60</repeat>
-        <text>GET TO THE CHOPPA EVENT this weekend 2-28 thru 3-1</text>
+        <text>Food is becoming scarce. Hungry? You aren't the only one!!</text>
     </message>
     <message>
         <delay>5</delay>
         <onconnect>1</onconnect>
         <repeat>60</repeat>
-        <text>More info at discord.gg/6qF9MZJ **Updated Link**</text>
-    </message>
-    <message>
-        <delay>5</delay>
-        <onconnect>1</onconnect>
-        <repeat>60</repeat>
-        <text>Support the server at https://server.nitrado.net/donations/donate/3448520</text>
+        <text>Rules and more info at discord.gg/6qF9MZJ</text>
     </message>
     <message>
       <deadline>180</deadline>

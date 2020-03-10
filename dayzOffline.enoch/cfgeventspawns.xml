@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <eventposdef>
     <event name="StaticHeliCrash">
-		<zone smin="5" smax="25" dmin="10" dmax="50" r="45" />
+		<zone smin="1" smax="3" dmin="3" dmax="5" r="45" />
 		<pos x="11844.371094" z="6020.828613" a="357.697601" />
 		<pos x="10772.458984" z="7141.783691" a="236.599503" />
 		<pos x="6357.467285" z="5393.447754" a="4.996732" />
@@ -474,5 +474,19 @@
 		<pos x="4943.424316" z="2095.411622" a="327.472046" />
 		<pos x="7288.063477" z="2947.33496" a="147.306595" />
 		<pos x="10253.083008" z="2127.03418" a="344.12796" />
+	</event>
+	<event name="StaticFridgeTest">
+		<pos x="12441.34" z="9323.58" a="0.0" />
+		<pos x="12463.22" z="9357.96" a="0.0" />
+		<pos x="12093.87793" z="9522.452148" a="0.0" />
+	</event>
+	<event name="StaticBuilding">
+		<pos x="12408.13" z="9453.29" a="150.0" />
+	</event>	
+	<event name="StaticBuilding2">
+		<pos x="12373.36" z="9484.16" a="0.0" /> 
+	</event>		
+	<event name="StaticBuilding3">
+		<pos x="12385.08" z="9442.1" a="0.0" /> 
 	</event>
 </eventposdef>

@@ -12,6 +12,7 @@
 		<file path="env/wolf_territories.xml" />		
 		<!-- <file path="env/hare_territories.xml" /> -->
 		<file path="env/zombie_territories.xml" />		
+		<file path="env/zombie_herd_territories.xml" />		
 		<file path="env/bear_territories.xml" />
 
 		<territory type="Herd" name="Deer" behavior="DZDeerGroupBeh">
@@ -54,7 +55,6 @@
 				<spawn configName="Animal_GallusGallusDomesticusF_Spotted" chance="10" />
 				<spawn configName="Animal_GallusGallusDomesticusF_White" chance="20" />
 			</agent>
-
 			<item name="globalCountMax" val="50" />
 			<item name="zoneCountMin" val="1" />
 			<item name="zoneCountMax" val="1" />
