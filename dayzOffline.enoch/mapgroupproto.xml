@@ -12,7 +12,7 @@
 				<default name="clusterMatrix" de="TrajectoryStumps" width="12" height="12"/>
 -->
 		</defaults>
-		<group name="Land_Roadblock_Table" lootmax="1">
+		<group name="Land_Roadblock_Table" lootmax="3">
 				<usage name="Police" />
 				<usage name="Military" />
 				<usage name="Medic" />
@@ -42,7 +42,7 @@
 						<point pos="-0.511108 0.332373 -0.242920" range="0.134375" height="0.335938" />
 				</container>
 		</group>
-		<group name="Land_Shed_M1" lootmax="2">
+		<group name="Land_Shed_M1" lootmax="3">
 				<usage name="Industrial" />
 				<usage name="Farm" />
 				<container name="lootFloor" lootmax="2">
@@ -55,7 +55,7 @@
 						<point pos="-0.238281 -1.174019 -0.895996" range="0.497570" height="1.243926" flags="32" />
 				</container>
 		</group>
-		<group name="Land_Shed_M3" lootmax="2">
+		<group name="Land_Shed_M3" lootmax="3">
 				<usage name="Industrial" />
 				<usage name="Farm" />
 				<container name="lootFloor" lootmax="2">
@@ -111,10 +111,10 @@
 						<point pos="-1.131592 -0.000771 -0.549897" range="1.199951" height="1.719215" flags="32" />
 				</container>
 		</group>
-		<group name="Land_Shed_W3" lootmax="2">
+		<group name="Land_Shed_W3" lootmax="4">
 				<usage name="Industrial" />
 				<usage name="Farm" />
-				<container name="lootFloor" lootmax="2">
+				<container name="lootFloor" lootmax="4">
 						<category name="tools" />
 						<category name="containers" />
 						<tag name="ground" />
@@ -2257,8 +2257,6 @@
 				</container>
 				<container name="lootshelves" lootmax="6">
 						<category name="tools" />
-						<category name="containers" />
-						<category name="clothes" />
 						<category name="food" />
 						<category name="books" />
 						<tag name="shelves" />
@@ -3232,8 +3230,6 @@
 				</container>
 				<container name="lootshelves">
 						<category name="tools" />
-						<category name="containers" />
-						<category name="clothes" />
 						<category name="food" />
 						<category name="books" />
 						<tag name="shelves" />
@@ -3267,10 +3263,9 @@
 				</container>
 		</group>
 		<group name="Land_Misc_Well_Pump_Blue" lootmax="2">
-				<usage name="Village" />
+				<usage name="Medic" />
 				<container name="lootFloor">
 						<category name="tools" />
-						<category name="clothes" />
 						<tag name="floor" />
 						<tag name="shelves" />
 						<point pos="0.197451 0.161392 -0.196373" range="0.134375" height="0.335938" />
@@ -7403,11 +7398,10 @@
 						<point pos="-4.177416 3.603546 -0.542746" range="0.901367" height="1.989929" />
 				</container>
 		</group>
-<!--
-		<group name="Land_Mil_Tower_Small" lootmax="1">
+		<group name="Land_Mil_Tower_Small" lootmax="2">
 				<usage name="Military" />
-				<container name="lootFloor" lootmax="1">
-						<category name="clothes" />
+				<container name="lootFloor" lootmax="2">
+						<category name="tools" />
 						<category name="weapons" />
 						<category name="explosives" />
 						<tag name="floor" />
@@ -7416,7 +7410,6 @@
 						<point pos="1.128418 1.277603 -0.120117" range="0.564091" height="1.382492" />
 				</container>
 		</group>
--->
 		<group name="Land_Mil_Fortified_Nest_Small" lootmax="2">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="2">

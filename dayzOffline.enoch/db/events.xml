@@ -541,6 +541,57 @@
             <child lootmax="0" lootmin="0" max="50" min="30" type="PileOfWoodenPlanks"/>
         </children>
     </event>
+    <event name="ItemSeaChest">
+        <nominal>3</nominal>
+        <min>3</min>
+        <max>3</max>
+        <lifetime>2500</lifetime>
+        <restock>0</restock>
+        <saferadius>1</saferadius>
+        <distanceradius>1</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>0</active>
+        <children>
+		<child lootmax="0" lootmin="0" max="3" min="3" type="SeaChest"/>
+	</children>
+    </event>
+    <event name="ItemSurvivorFEva">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3600</lifetime>
+        <restock>120</restock>
+        <saferadius>5</saferadius>
+        <distanceradius>5</distanceradius>
+        <cleanupradius>5</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>custom</position>
+        <limit>child</limit>
+        <active>0</active>
+        <children>
+		<child lootmax="0" lootmin="0" max="1" min="1" type="SurvivorF_Eva"/>
+	</children>
+    </event>   
+    <event name="ItemSurvivorFFrida">    	
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3600</lifetime>
+        <restock>120</restock>
+        <saferadius>5</saferadius>
+        <distanceradius>5</distanceradius>
+        <cleanupradius>5</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>custom</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+		<child lootmax="0" lootmin="0" max="1" min="1" type="SurvivorF_Frida"/>
+	</children>
+    </event> 
     <event name="Loot">
         <nominal>0</nominal>
         <min>0</min>
@@ -555,6 +606,40 @@
         <limit>custom</limit>
         <active>1</active>
         <children/>
+    </event>
+    <event name="StaticBuildingSmallTower">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>       
+        <lifetime>2500</lifetime>
+        <restock>0</restock>
+        <saferadius>1</saferadius>
+        <distanceradius>2</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>0</active>
+        <children>
+            <child lootmax="2" lootmin="1" max="1" min="1" type="Land_Mil_Tower_Small"/>
+        </children>
+    </event>			
+    <event name="StaticBuildingOwnerWell">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>       
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <saferadius>1</saferadius>
+        <distanceradius>5</distanceradius>
+        <cleanupradius>50</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="2" lootmin="0" max="1" min="1" type="Land_Misc_Well_Pump_Blue"/>
+        </children>
     </event>
     <event name="StaticChristmasTree">
         <nominal>17</nominal>
@@ -605,6 +690,7 @@
         <children>
             <child lootmax="20" lootmin="10" max="3" min="1" type="Wreck_Mi8"/>
             <child lootmax="20" lootmin="10" max="3" min="1" type="Wreck_UH1Y"/>
+	    <child lootmax="30" lootmin="20" max="1" min="0" type="Land_Wreck_C130J"/>
         </children>
     </event>
     <event name="StaticPoliceCar">
@@ -616,6 +702,7 @@
         <saferadius>500</saferadius>
         <distanceradius>500</distanceradius>
         <cleanupradius>200</cleanupradius>
+        <secondary>InfectedPolice</secondary>
         <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
         <limit>child</limit>
