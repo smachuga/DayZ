@@ -16317,33 +16317,13 @@
         <usage name="Hunting"/>
 		<usage name="Village"/>
     </type>
-    <type name="Land_Mil_Controltower">
-        <nominal>0</nominal>
-        <lifetime>5600</lifetime>
+		<type name="Land_Misc_Well_Pump_Yellow">
+        <nominal>1</nominal>
+        <lifetime>3888800</lifetime>
         <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>	
-    <type name="Land_Misc_Well_Pump_Blue">
-        <nominal>0</nominal>
-        <lifetime>5600</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>	
-    <type name="Land_Misc_Well_Pump_Yellow">
-        <nominal>0</nominal>
-        <lifetime>5600</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
+        <min>1</min>
+        <quantmin>90</quantmin>
+        <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>

@@ -1197,7 +1197,7 @@
 		<pos x="10257.797851" z="3617.499512" a="270.770691" />
 	</event>
 	<event name="StaticBuildingOwnerWell">
-		<pos x="6226.31" z="15009.57" a="0.0" />
+		<pos x="6334.22" z="15012.49" a="0.0" />
 	</event>
 	<event name="VehicleV3SCargo" />
     <event name="VehicleTransitBus" />

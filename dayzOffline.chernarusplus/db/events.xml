@@ -510,20 +510,20 @@
         </children>
     </event>
     <event name="ItemPlanks">
-        <nominal>50</nominal>
-        <min>40</min>
-        <max>50</max>
+        <nominal>100</nominal>
+        <min>75</min>
+        <max>100</max>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <saferadius>250</saferadius>
+        <saferadius>20</saferadius>
         <distanceradius>20</distanceradius>
-        <cleanupradius>100</cleanupradius>
+        <cleanupradius>20</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="50" min="30" type="PileOfWoodenPlanks"/>
+            <child lootmax="0" lootmin="0" max="100" min="75" type="PileOfWoodenPlanks"/>
         </children>
     </event>
     <event name="Loot">
@@ -590,7 +590,7 @@
         <children>
             <child lootmax="20" lootmin="10" max="90" min="60" type="Wreck_Mi8"/>
             <child lootmax="20" lootmin="10" max="90" min="60" type="Wreck_UH1Y"/>
-	    <child lootmax="20" lootmin="10" max="5" min="4" type="Land_Wreck_C130J"/>
+			<child lootmax="20" lootmin="10" max="5" min="4" type="Land_Wreck_C130J"/>
         </children>
     </event>
     <event name="StaticPoliceCar">
@@ -841,16 +841,16 @@
             <child lootmax="0" lootmin="0" max="40" min="3" type="Sedan_02_Red"/>
         </children>
     </event>
-    <event name="StaticBuildingOwnerWell">
+	   <event name="BaseWell">
         <nominal>1</nominal>
         <min>1</min>
-        <max>1</max>       
-        <lifetime>2700</lifetime>
+        <max>1</max>
+        <lifetime>10000</lifetime>
         <restock>0</restock>
         <saferadius>1</saferadius>
-        <distanceradius>5</distanceradius>
-        <cleanupradius>50</cleanupradius>
-        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <distanceradius>1</distanceradius>
+        <cleanupradius>1000</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
         <limit>child</limit>
         <active>1</active>
