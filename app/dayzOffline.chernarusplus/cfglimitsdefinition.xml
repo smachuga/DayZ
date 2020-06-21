@@ -9,7 +9,7 @@
 		<category name="books" />
 		<category name="explosives" />
 		<category name="drinks" />
-	<category name="secret" /></categories>
+	</categories>
 	<tags>
 		<tag name="floor" />
 		<tag name="shelves" />

@@ -38,9 +38,27 @@ paths:
           required: true
       responses:
         200:
-          description: "Successful read category list operation"
-          schema:
-            type: "array"
-            items: 
-              type: string
+          description: "Successful add category operation"
+        500:
+          description: "Failed to add category operation"
+
+  /categories/{value}: 
+    delete:
+      tags:
+        - "Categories"
+      summary: "Remove a category value"
+      description: "Remove a specified category value"        
+      parameters:
+        - name: value
+          description: Name of new category
+          in: path
+          type: string
+          required: true
+      responses:
+        200:
+          description: "Successfully delete category operation"
+        404:
+          description: "Failure - Category not found"
+        500:
+          description: "Server error occured"
     

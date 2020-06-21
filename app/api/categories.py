@@ -1,4 +1,5 @@
-# Create a handler for our read (GET) categories
+import xml.etree.ElementTree as ET
+
 def search():
     """
     This function responds to a request for /api/categories
@@ -28,5 +29,26 @@ def post(value):
     categories = root.find('categories')
     element = categories.makeelement('category', {'name':value.lower()})
     categories.append(element)
+    tree.write('./dayzOffline.chernarusplus/cfglimitsdefinition.xml')
+    return 'Success', 200
+
+def delete(value):
+    """
+    This function responds to a delete for /api/categories/{value}
+    with a success or failure messagte
+
+    :return:        sucess or failure message
+    """
+
+    # TODO: Remove all usages of category in other files
+
+    if not value.lower() in search():
+        return 'Not Found', 404, {'x-error': 'category does not exist'}
+
+    tree = ET.parse('./dayzOffline.chernarusplus/cfglimitsdefinition.xml')
+    root = tree.getroot()
+    categories = root.find('categories')
+    for elem in categories.findall(f'.//category[@name="{value.lower()}"]'):
+        categories.remove(elem)         
     tree.write('./dayzOffline.chernarusplus/cfglimitsdefinition.xml')
     return 'Success', 200
