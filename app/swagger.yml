@@ -1,0 +1,46 @@
+swagger: "2.0"
+info:
+  description: This is the swagger file that goes with our server code
+  version: "1.0.0"
+  title: Swagger REST Article
+consumes:
+  - "application/json"
+produces:
+  - "application/json"
+
+basePath: "/api"
+
+# Paths supported by the server application
+paths:
+  /categories:
+    get:
+      tags:
+        - "Categories"
+      summary: "A list of loot categories"
+      description: "Read a list of loot categories"
+      responses:
+        200:
+          description: "Successful read category list operation"
+          schema:
+            type: "array"
+            items: 
+              type: string
+    post:
+      tags:
+        - "Categories"
+      summary: "Add a new category value"
+      description: "Add a new category value via querystring"
+      parameters:
+        - name: value
+          description: Name of new category
+          in: query
+          type: string
+          required: true
+      responses:
+        200:
+          description: "Successful read category list operation"
+          schema:
+            type: "array"
+            items: 
+              type: string
+    
