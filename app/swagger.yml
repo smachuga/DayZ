@@ -1,6 +1,6 @@
 swagger: "2.0"
 info:
-  description: This is the swagger file that goes with our server code
+  description: "This is the swagger file that goes with our server code"
   version: "1.0.0"
   title: Swagger REST Article
 consumes:
@@ -13,52 +13,11 @@ basePath: "/api"
 # Paths supported by the server application
 paths:
   /categories:
-    get:
-      tags:
-        - "Categories"
-      summary: "A list of loot categories"
-      description: "Read a list of loot categories"
-      responses:
-        200:
-          description: "Successful read category list operation"
-          schema:
-            type: "array"
-            items: 
-              type: string
-    post:
-      tags:
-        - "Categories"
-      summary: "Add a new category value"
-      description: "Add a new category value via querystring"
-      parameters:
-        - name: value
-          description: Name of new category
-          in: query
-          type: string
-          required: true
-      responses:
-        200:
-          description: "Successful add category operation"
-        500:
-          description: "Failed to add category operation"
-
+    $ref: './swagger/categories.yml'
   /categories/{value}: 
-    delete:
-      tags:
-        - "Categories"
-      summary: "Remove a category value"
-      description: "Remove a specified category value"        
-      parameters:
-        - name: value
-          description: Name of new category
-          in: path
-          type: string
-          required: true
-      responses:
-        200:
-          description: "Successfully delete category operation"
-        404:
-          description: "Failure - Category not found"
-        500:
-          description: "Server error occured"
+    $ref: './swagger/categories_ext.yml'
+  /tags:
+    $ref: './swagger/tags.yml'
+  /tags/{value}: 
+    $ref: './swagger/tags_ext.yml'
     
