@@ -6,7 +6,7 @@ info:
 consumes:
   - "application/json"
 produces:
-  - "application/json"
+  - "application/json"  
 
 basePath: "/api"
 
@@ -14,10 +14,19 @@ basePath: "/api"
 paths:
   /categories:
     $ref: './swagger/categories.yml'
-  /categories/{value}: 
+  /categories/{value}:
     $ref: './swagger/categories_ext.yml'
+  /loot:
+    $ref: './swagger/loot.yml'
   /tags:
     $ref: './swagger/tags.yml'
-  /tags/{value}: 
+  /tags/{value}:
     $ref: './swagger/tags_ext.yml'
-    
+  /usages:
+    $ref: './swagger/usages.yml'
+  /usages/{value}:
+    $ref: './swagger/usages_ext.yml'     
+        
+definitions:
+  Loot:
+    $ref: './swagger/loot_def.yml'

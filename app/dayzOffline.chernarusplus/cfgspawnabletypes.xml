@@ -2009,12 +2009,36 @@
 			<item name="Mag_CZ527_5rnd" chance="1.00" />
 		</attachments>
 	</type>
-	<type name="Winchester70">
-		<attachments chance="1.00">
-			<item name="HuntingOptic" chance="1.00" />
+	<type name="Winchester70_green">
+		<attachments chance="0.25">
+			<item name="HuntingOptic" />
 		</attachments>
 	</type>
 	<type name="Mosin9130">
+		<attachments chance="1.00">
+			<item name="Mosin_Compensator" chance="0.10" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="PUScopeOptic" chance="0.05" />
+		</attachments>
+	</type>	
+	<type name="Mosin9130_camo">
+		<attachments chance="1.00">
+			<item name="Mosin_Compensator" chance="0.10" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="PUScopeOptic" chance="0.05" />
+		</attachments>
+	</type>
+	<type name="Mosin9130_green">
+		<attachments chance="1.00">
+			<item name="Mosin_Compensator" chance="0.10" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="PUScopeOptic" chance="0.05" />
+		</attachments>
+	</type>
+	<type name="Mosin9130_black">
 		<attachments chance="1.00">
 			<item name="Mosin_Compensator" chance="0.10" />
 		</attachments>

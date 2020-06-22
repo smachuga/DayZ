@@ -1,0 +1,42 @@
+get:
+  tags:
+      - "Loot"
+  summary: "A list of loot types"
+  description: "Read a list of loot types"
+  responses:
+    default:
+      description: List of Types
+      schema:
+        type: array
+        items:
+          $ref: './loot_def.yml'
+
+post:
+  tags:
+    - "Loot"
+  summary: "Add a new loot type value"
+  description: "Add a new loot type value via querystring"
+  parameters:
+    - name: value
+      description: Name of new loot type
+      in: query
+      type: string
+      required: true
+  responses:
+    default:
+      description: OK
+
+delete:
+  tags:
+    - "Loot"
+  summary: "Remove a type value"
+  description: "Remove a specified type value"        
+  parameters:
+    - name: value
+      description: "Name of type to remove"
+      in: path
+      type: string
+      required: true
+  responses:
+    default:
+      description: OK

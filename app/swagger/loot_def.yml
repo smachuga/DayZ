@@ -1,0 +1,27 @@
+type: object
+properties:
+    name:
+        type: string
+    nominal:
+        type: integer
+    lifetime:
+        type: integer
+    restock:
+        type: integer
+    min:
+        type: integer
+    quantmin:
+        type: integer
+        default: -1
+    quantmax:
+        type: integer
+        default: -1
+    cost:
+        type: integer
+        default: 100
+    flags:
+        type: object
+        properties:
+            count_in_cargo:
+                type: integer
+                default: 0
