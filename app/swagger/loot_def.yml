@@ -12,16 +12,34 @@ properties:
         type: integer
     quantmin:
         type: integer
-        default: -1
     quantmax:
         type: integer
-        default: -1
     cost:
         type: integer
-        default: 100
     flags:
         type: object
         properties:
             count_in_cargo:
                 type: integer
-                default: 0
+            count_in_hoarder:
+                type: integer
+            count_in_map:
+                type: integer
+            count_in_player:
+                type: integer
+            crafted:
+                type: integer
+            deloot:
+                type: integer
+    categories:
+        type: array
+        items:
+            type: string
+    usage:
+        type: array
+        items:
+            type: string
+    tiers:
+        type: array
+        items:
+            type: string
