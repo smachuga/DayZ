@@ -1,0 +1,45 @@
+type: object
+properties:
+    name:
+        type: string
+    nominal:
+        type: integer
+    lifetime:
+        type: integer
+    restock:
+        type: integer
+    min:
+        type: integer
+    quantmin:
+        type: integer
+    quantmax:
+        type: integer
+    cost:
+        type: integer
+    flags:
+        type: object
+        properties:
+            count_in_cargo:
+                type: integer
+            count_in_hoarder:
+                type: integer
+            count_in_map:
+                type: integer
+            count_in_player:
+                type: integer
+            crafted:
+                type: integer
+            deloot:
+                type: integer
+    categories:
+        type: array
+        items:
+            type: string
+    usage:
+        type: array
+        items:
+            type: string
+    tiers:
+        type: array
+        items:
+            type: string

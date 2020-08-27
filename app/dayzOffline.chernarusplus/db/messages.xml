@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<messages>    
+    <message>
+        <deadline>240</deadline>
+        <shutdown>1</shutdown>
+        <text>This server will shutdown in #tmin minutes.</text>
+    </message>
+    <message>
+        <repeat>15</repeat>
+        <text>PVP everywhere for GEARED, NO KOS on coast for GEARED against Freshies</text>
+    </message>
+    <message>
+        <delay>10</delay>
+        <repeat>50</repeat>
+        <onconnect>1</onconnect>
+        <text>Join our discord https://discord.gg/WKZXWCK Give Suggestions, and read rules!, Killfeed up</text>
+    </message>
+    <message>
+        <delay>15</delay>
+        <repeat>50</repeat>
+        <onconnect>1</onconnect>
+        <text>Please support our server. Go to nitrado xbox app, select boosting tab, and donate with this code L05IH5U0</text>
+    </message>
+	
+</messages>

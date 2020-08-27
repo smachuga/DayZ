@@ -1,0 +1,26 @@
+get:
+  tags:
+    - "Usages"
+  summary: "A list of loot usages"
+  description: "Read a list of loot usages"
+  responses:
+    default:
+      description: List of Loot Usages
+      schema:
+        type: array
+        items:
+          type: string
+post:
+  tags:
+    - "Usages"
+  summary: "Add a new usage value"
+  description: "Add a new usage value via querystring"
+  parameters:
+    - name: value
+      description: Name of new usage
+      in: query
+      type: string
+      required: true
+  responses:
+    default:
+      description: OK

@@ -1,0 +1,26 @@
+get:
+  tags:
+      - "Tags"
+  summary: "A list of loot tags"
+  description: "Read a list of loot tags"
+  responses:
+    default:
+      description: 'List of Tags'
+      schema:
+        type: array
+        items:
+          type: string
+post:
+  tags:
+    - "Tags"
+  summary: "Add a new tags value"
+  description: "Add a new tags value via querystring"
+  parameters:
+    - name: value
+      description: Name of new tags
+      in: query
+      type: string
+      required: true
+  responses:
+    default:
+      description: OK

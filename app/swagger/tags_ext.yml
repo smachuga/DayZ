@@ -1,0 +1,14 @@
+delete:
+  tags:
+    - "Tags"
+  summary: "Remove a tag value"
+  description: "Remove a specified tag value"        
+  parameters:
+    - name: value
+      description: "Name of new tag"
+      in: path
+      type: string
+      required: true
+  responses:
+    default:
+      description: OK
