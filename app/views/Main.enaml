@@ -1,0 +1,35 @@
+from enaml.widgets.api import MainWindow, MenuBar, Menu, Action, Container
+from enaml.core.api import Conditional, Looper
+from enaml.styling import StyleSheet, Style, Setter
+from views.Categories import CategoriesView
+
+
+
+def displayCategories():
+    print('TODO: Implement Categories')
+
+def save():
+    print('TODO: Implement Save')
+
+enamldef MainView(MainWindow): main:
+    title = "DayZ Admin Tool"
+    attr saveFunc = save
+
+    MenuBar:
+        Menu:
+            title = '&File'
+            Action:
+                text = '&Save\tCtrl+S'
+                triggered :: saveFunc()
+        Menu:
+            title = '&View'
+            Action:
+                text = '&Categories'
+                triggered :: categories.show() 
+
+    Container:
+        CategoriesView: categories:
+            values = ("test 1", "test 2")
+            visible = False
+        
+            

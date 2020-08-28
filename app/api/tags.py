@@ -1,19 +1,18 @@
-from connexion import NoContent
 from api.controller import Controller
-from http import HTTPStatus
 from typing import List
 
-ctl = Controller(
-    file_name='./dayzOffline.chernarusplus/cfglimitsdefinition.xml',
-    container_name='tags',
-    item_name='tag'
-)
+class TagsService():
+    ctl = Controller(
+        file_name='./dayzOffline.chernarusplus/cfglimitsdefinition.xml',
+        container_name='tags',
+        item_name='tag'
+    )
+    
+    def get(self) -> List[str]:
+        return ctl.search()
 
-def search() -> List[str]:
-    return ctl.search()
+    def create(self, value: str) -> bool:
+        return ctl.post(value)
 
-def post(value: str) -> (NoContent, HTTPStatus):
-    return ctl.post(value)
-
-def delete(value: str) -> (NoContent, HTTPStatus):
-    return ctl.delete(value)
+    def delete(self, value: str) -> HTTPStatus:
+        return ctl.delete(value)

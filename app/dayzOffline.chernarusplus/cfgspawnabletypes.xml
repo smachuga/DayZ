@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 
 <spawnabletypes>
-	<damage min="0.0" max="0.4" />
+	<damage min="0.0" max="0.0" />
 	<type name="Barrel_Blue">
 		<hoarder />
 	</type>
@@ -3084,6 +3084,9 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CanisterGasoline" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="OffroadHatchback_Blue">
