@@ -1,4 +1,4 @@
-# DayZ Config Editor Service
+# DayZ Config Files
   
 ## License
 **inherited from XML Configuration files**
