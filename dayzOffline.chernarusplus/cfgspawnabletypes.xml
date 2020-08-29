@@ -2070,45 +2070,26 @@
 		</attachments>
 	</type>
 	<type name="AKM">
-		<attachments chance="0.60">
-			<item name="AK74_WoodBttstck" chance="0.30" />
+		<attachments>
+			<item name="AK_PlasticBttstck" />
 		</attachments>
-		<attachments chance="0.60">
-			<item name="AK_FoldingBttstck" chance="0.30" />
+		<attachments>
+			<item name="AK_WoodHndgrd" chance="0.3" />
+			<item name="AK_RailHndgrd" chance="0.3" />
+			<item name="AK_PlasticHndgrd" chance="1" />
 		</attachments>
-		<attachments chance="0.60">
-			<item name="AK_PlasticBttstck" chance="0.30" />
-		</attachments>
-		<attachments chance="0.60">
-			<item name="AKS74U_Bttstck" chance="0.30" />
-		</attachments>
-		<attachments chance="0.60">
-			<item name="AKS74U_Bttstck" chance="0.30" />
-		</attachments>
-		<attachments chance="0.60">
-			<item name="AK74_Hndgrd" chance="0.30" />
-		</attachments>
-		<attachments chance="0.60">
-			<item name="AK_RailHndgrd" chance="0.30" />
-		</attachments>
-		<attachments chance="0.60">
-			<item name="AK_PlasticHndgrd" chance="0.30" />
-		</attachments>
-		<attachments chance="1.00">
+		<attachments>
 			<item name="AK_WoodBttstck" chance="1.00" />
 		</attachments>
-		<attachments chance="1.00">
-			<item name="AK_WoodHndgrd" chance="1.00" />
-		</attachments>
-		<attachments chance="0.50">
+		<attachments>
 			<item name="KashtanOptic" chance="0.30" />
 			<item name="PSO11Optic" chance="0.20" />
 		</attachments>
-		<attachments chance="0.50">
+		<attachments>
 			<item name="AK_Suppressor" chance="0.20" />
 		</attachments>
-		<attachments chance="1.00">
-			<item name="Mag_AKM_30Rnd" chance="1.00" />
+		<attachments>
+			<item name="Mag_AKM_30Rnd" />
 		</attachments>
 	</type>
 	<type name="AK74">
@@ -2149,7 +2130,7 @@
 			<item name="AK_FoldingBttstck" chance="0.10" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="AK_PlasticBttstck" chance="0.03" />
+			<item name="AK_PlasticBttstck" chance="0.30" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="AK_WoodBttstck" chance="0.10" />
@@ -2158,7 +2139,7 @@
 			<item name="AKS74U_Bttstck" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="AK_Suppressor" chance="0.05" />
+			<item name="AK_Suppressor" chance="0.15" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Mag_AK74_30Rnd" chance="1.00" />
