@@ -9,13 +9,13 @@
         <onconnect>1</onconnect>
         <delay>5</delay>	
         <repeat>30</repeat>
-        <text>Welcome to DayZ! Just Fresh Wiped and its a Chopper Event TODAY! Gear up!</text>
+        <text>Welcome to DayZ!</text>
     </message>
     <message>
         <onconnect>1</onconnect>
         <delay>10</delay>
         <repeat>30</repeat>
-        <text>Join our discord https://discord.gg/WKZXWCK Give Suggestions, and read rules!, Killfeed up</text>
+        <text>Join our discord https://discord.gg/cekt7Jk Give Suggestions, and read rules!</text>
     </message>
     <message>
         <onconnect>1</onconnect>
