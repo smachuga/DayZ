@@ -512,7 +512,7 @@
     <event name="ItemPlanks">
         <nominal>125</nominal>
         <min>40</min>
-        <max>100</max>
+        <max>150</max>
         <lifetime>7200</lifetime>
         <restock>0</restock>
         <saferadius>250</saferadius>

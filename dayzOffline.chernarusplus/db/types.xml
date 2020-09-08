@@ -7701,10 +7701,10 @@
         <usage name="Village"/>
     </type>
     <type name="Hoodie_Black">
-        <nominal>0</nominal>
-        <lifetime>900</lifetime>
+        <nominal>25</nominal>
+        <lifetime>86400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7714,10 +7714,10 @@
         <usage name="Village"/>
     </type>
     <type name="Hoodie_Blue">
-        <nominal>0</nominal>
-        <lifetime>900</lifetime>
+        <nominal>30</nominal>
+        <lifetime>86400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7727,10 +7727,10 @@
         <usage name="Village"/>
     </type>
     <type name="Hoodie_Brown">
-        <nominal>0</nominal>
-        <lifetime>900</lifetime>
+        <nominal>30</nominal>
+        <lifetime>86400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7740,10 +7740,10 @@
         <usage name="Village"/>
     </type>
     <type name="Hoodie_Green">
-        <nominal>0</nominal>
-        <lifetime>900</lifetime>
+        <nominal>25</nominal>
+        <lifetime>86400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7755,10 +7755,10 @@
         <value name="Tier3"/>
     </type>
     <type name="Hoodie_Grey">
-        <nominal>0</nominal>
-        <lifetime>900</lifetime>
+        <nominal>30</nominal>
+        <lifetime>86400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7769,10 +7769,10 @@
         <value name="Tier1"/>
     </type>
     <type name="Hoodie_Red">
-        <nominal>0</nominal>
-        <lifetime>900</lifetime>
+        <nominal>30</nominal>
+        <lifetime>86400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8080,10 +8080,10 @@
         <value name="Tier2"/>
     </type>
     <type name="Jeans_Black">
-        <nominal>0</nominal>
-        <lifetime>900</lifetime>
+        <nominal>20</nominal>
+        <lifetime>86400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8092,10 +8092,10 @@
         <usage name="Town"/>
     </type>
     <type name="Jeans_Blue">
-        <nominal>0</nominal>
-        <lifetime>900</lifetime>
+        <nominal>20</nominal>
+        <lifetime>86400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8104,10 +8104,10 @@
         <usage name="Town"/>
     </type>
     <type name="Jeans_BlueDark">
-        <nominal>0</nominal>
-        <lifetime>900</lifetime>
+        <nominal>20</nominal>
+        <lifetime>86400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8116,10 +8116,10 @@
         <usage name="Town"/>
     </type>
     <type name="Jeans_Brown">
-        <nominal>0</nominal>
-        <lifetime>900</lifetime>
+        <nominal>20</nominal>
+        <lifetime>86400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8128,10 +8128,10 @@
         <usage name="Town"/>
     </type>
     <type name="Jeans_Green">
-        <nominal>0</nominal>
-        <lifetime>900</lifetime>
+        <nominal>20</nominal>
+        <lifetime>86400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8140,10 +8140,10 @@
         <usage name="Town"/>
     </type>
     <type name="Jeans_Grey">
-        <nominal>0</nominal>
-        <lifetime>900</lifetime>
+        <nominal>20</nominal>
+        <lifetime>86400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8152,10 +8152,10 @@
         <usage name="Town"/>
     </type>
     <type name="JoggingShoes_Black">
-        <nominal>0</nominal>
-        <lifetime>900</lifetime>
+        <nominal>30</nominal>
+        <lifetime>86400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8166,10 +8166,10 @@
         <usage name="Village"/>
     </type>
     <type name="JoggingShoes_Blue">
-        <nominal>0</nominal>
-        <lifetime>900</lifetime>
+        <nominal>30</nominal>
+        <lifetime>86400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8180,10 +8180,10 @@
         <usage name="Village"/>
     </type>
     <type name="JoggingShoes_Red">
-        <nominal>0</nominal>
-        <lifetime>900</lifetime>
+        <nominal>30</nominal>
+        <lifetime>86400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8194,10 +8194,10 @@
         <usage name="Village"/>
     </type>
     <type name="JoggingShoes_Violet">
-        <nominal>0</nominal>
-        <lifetime>900</lifetime>
+        <nominal>30</nominal>
+        <lifetime>86400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8208,10 +8208,10 @@
         <usage name="Village"/>
     </type>
     <type name="JoggingShoes_White">
-        <nominal>0</nominal>
-        <lifetime>900</lifetime>
+        <nominal>30</nominal>
+        <lifetime>86400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8349,7 +8349,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <tag name="floor"/>
-        <usage name="Police"/>
+        <usage name="Military"/>
     </type>
     <type name="JungleBoots_Brown">
         <nominal>5</nominal>
