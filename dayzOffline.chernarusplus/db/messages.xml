@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <messages>    
     <message>
-        <deadline>240</deadline>
+        <deadline>600</deadline>
         <shutdown>1</shutdown>
         <text>This server will restart in #tmin minutes.</text>
     </message>
@@ -23,5 +23,4 @@
         <repeat>30</repeat>
         <text>Please support our server. Go to nitrado xbox app, select boosting tab, and donate with this code L05IH5U0</text>
     </message>
-	
 </messages>

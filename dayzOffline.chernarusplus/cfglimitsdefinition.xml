@@ -30,7 +30,6 @@
         <usage name="School"/>
         <usage name="Prison"/>
         <usage name="Lunapark"/>
-	<usage name="Pub"/>
     </usageflags>
     <valueflags>
         <value name="Tier1"/>
