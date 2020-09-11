@@ -2011,11 +2011,7 @@
 	<type name="AKS74U">
 		<attachments chance="1.00">
 			<item name="AK_FoldingBttstck" chance="0.10" />
-		</attachments>
-		<attachments chance="1.00">
 			<item name="AK_PlasticBttstck" chance="0.03" />
-		</attachments>
-		<attachments chance="1.00">
 			<item name="AK_WoodBttstck" chance="0.10" />
 		</attachments>
 		<attachments chance="1.00">
@@ -2025,14 +2021,12 @@
 			<item name="AK_Suppressor" chance="0.05" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Mag_AK74_30Rnd" chance="0.30" />
+			<item name="Mag_AK74_30Rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="AK101">
 		<attachments chance="0.30">
 			<item name="AK_FoldingBttstck" chance="0.30" />
-		</attachments>
-		<attachments chance="0.30">
 			<item name="AK_WoodBttstck" chance="0.30" />
 		</attachments>
 		<attachments chance="1.00">
