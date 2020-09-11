@@ -475,24 +475,4 @@
 		<pos x="7288.063477" z="2947.33496" a="147.306595" />
 		<pos x="10253.083008" z="2127.03418" a="344.12796" />
 	</event>
-	<event name="ItemSeaChest">
-		<pos x="12441.34" z="9323.58" a="0.0" />
-		<pos x="12463.22" z="9357.96" a="0.0" />
-		<pos x="12093.87793" z="9522.452148" a="0.0" />
-	</event>
-	<event name="ItemSurvivorFEva">
-		<pos x="12441.34" z="9323.58" a="0.0" />
-	</event>
-	<event name="ItemSurvivorFFrida">
-		<pos x="12373.36" z="9484.16" a="0.0" />
-	</event>
-	<event name="StaticBuildingSmallTower">
-		<pos x="12408.13" z="9453.29" a="150.0" />
-	</event>	
-	<event name="StaticBuildingControlTower">
-		<pos x="12373.36" z="9484.16" a="0.0" /> 
-	</event>		
-	<event name="StaticBuildingOwnerWell">
-		<pos x="12385.08" z="9442.1" a="0.0" /> 
-	</event>
 </eventposdef>

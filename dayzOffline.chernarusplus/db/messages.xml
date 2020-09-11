@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <messages>    
     <message>
-        <deadline>600</deadline>
+        <deadline>720</deadline>
         <shutdown>1</shutdown>
         <text>This server will restart in #tmin minutes.</text>
     </message>

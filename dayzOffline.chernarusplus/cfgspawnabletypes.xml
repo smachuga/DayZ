@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 
 <spawnabletypes>
-	<damage min="0.0" max="0.3" />
+	<damage min="0.0" max="0.5" />
 	<type name="Barrel_Blue">
 		<hoarder />
 	</type>
@@ -57,7 +57,7 @@
 		<attachments chance="0.50">
 			<item name="DirtBikeHelmet_Mouthguard" chance="1.00" />
 		</attachments>
-		<attachments chance="0.50">
+		<attachments chance="0.75">
 			<item name="DirtBikeHelmet_Visor" chance="1.00" />
 		</attachments>
 	</type>
@@ -65,7 +65,7 @@
 		<attachments chance="0.50">
 			<item name="DirtBikeHelmet_Mouthguard" chance="1.00" />
 		</attachments>
-		<attachments chance="0.50">
+		<attachments chance="0.75">
 			<item name="DirtBikeHelmet_Visor" chance="1.00" />
 		</attachments>
 	</type>
@@ -1501,21 +1501,18 @@
 	<!-- -----------------------------Police----------------------------- -->
 	<type name="ZmbF_PoliceWomanNormal">
 		<cargo preset="toolsPolice" />
-		<cargo preset="foodVillage" />
 		<attachments preset="glassesVillage" />
 		<attachments preset="hatsPolice" />
 		<attachments preset="vestsPolice" />
 	</type>
 	<type name="ZmbM_PolicemanFat">
 		<cargo preset="toolsPolice" />
-		<cargo preset="foodVillage" />
 		<attachments preset="glassesVillage" />
 		<attachments preset="hatsPolice" />
 		<attachments preset="vestsPolice" />
 	</type>
 	<type name="ZmbM_PolicemanSpecForce">
 		<cargo preset="toolsPolice" />
-		<cargo preset="foodVillage" />
 		<attachments preset="glassesVillage" />
 		<attachments preset="hatsPolice" />
 		<attachments preset="vestsPolice" />
@@ -1781,8 +1778,10 @@
 	<type name="MakarovIJ70">
 		<attachments chance="1.00">
 			<item name="Mag_IJ70_8Rnd" chance="1.00" />
+		</attachments>		
+		<attachments chance="1.00">
+			<item name="PistolSuppressor" chance="0.15" />
 		</attachments>
-		<!-- MakarovPBSuppressor -->
 	</type>
 	<type name="CZ75">
 		<attachments chance="0.75">
@@ -2125,12 +2124,10 @@
 	</type>
 	<type name="FAL">
 		<attachments chance="1.00">
-			<item name="Fal_FoldingBttstck" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
+			<item name="Fal_FoldingBttstck" chance="0.50" />
 			<item name="Fal_OeBttstck" chance="1.00" />
 		</attachments>
-		<attachments chance="1.00">
+		<attachments chance="0.50">
 			<item name="BUISOptic" chance="0.20" />
 			<item name="M68Optic" chance="0.20" />
 			<item name="M4_T3NRDSOptic" chance="0.20" />
@@ -2146,7 +2143,7 @@
 		<attachments chance="1.00">
 			<item name="Mag_SVD_10Rnd" chance="1.00" />
 		</attachments>
-		<attachments chance="1.00">
+		<attachments chance="0.50">
 			<item name="KashtanOptic" chance="0.50" />
 			<item name="PSO11Optic" chance="0.30" />
 		</attachments>
@@ -2186,9 +2183,9 @@
 		<attachments chance="0.10">
 			<item name="HuntingOptic" chance="1.00" />
 		</attachments>
-		<attachments chance="0.75">
+		<attachments chance="1.00">
 			<item name="Mag_Ruger1022_30Rnd" chance="0.30" />
-			<item name="Mag_Ruger1022_15Rnd" chance="0.50" />
+			<item name="Mag_Ruger1022_15Rnd" chance="0.70" />
 		</attachments>
 	</type>
 	<type name="Deagle">
@@ -2197,13 +2194,14 @@
 		</attachments>
 	</type>
 	<type name="Deagle_Gold">
-		<attachments chance="0.05">
-			<item name="Mag_Deagle_9rnd" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="Flashlight">
 		<attachments chance="1.00">
-			<item name="Battery9V" chance="1.00" />
+			<item name="Mag_Deagle_9rnd" chance="1.00" />
+		</attachments>		
+		<attachments chance="1.0">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="1.0">
+			<item name="PistolOptic" chance="1.00" />
 		</attachments>
 	</type>
 <!-- FUTURE
@@ -2298,6 +2296,31 @@
 	</type>
 -->
 	<!--  END OF WEAPONS  -->
+	<type name="Flashlight">
+		<attachments chance="1.00">
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="UniversalLight">
+		<attachments chance="1.00">
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Headtorch_Black">
+		<attachments chance="1.00">
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Headtorch_Grey">
+		<attachments chance="1.00">
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="NVGoggles">
+		<attachments chance="1.00">
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
+	</type>
 	<type name="PersonalRadio">
 		<attachments chance="0.30">
 			<item name="Battery9V" chance="1.00" />

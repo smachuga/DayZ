@@ -15,7 +15,36 @@
 				<default name="clusterMatrix" de="TrajectoryStumps" width="12" height="12"/>
 -->
 		</defaults>
-
+		<group name="Land_Roadblock_Table" lootmax="1">
+				<usage name="Police" />
+				<usage name="Military" />
+				<usage name="Medic" />
+				<container name="loot" lootmax="1">
+						<category name="tools" />
+						<category name="clothes" />
+						<category name="weapons" />
+						<tag name="shelves" />
+						<point pos="0.298584 0.400101 -0.024414" range="0.100000" height="0.250000" />
+						<point pos="0.007813 0.400101 0.422363" range="0.375000" height="0.937500" />
+						<point pos="-0.274536 0.400101 0.846191" range="0.134265" height="0.335938" />
+						<point pos="0.283325 0.400101 0.902344" range="0.100000" height="0.250000" />
+						<point pos="-0.281982 0.400101 -0.034668" range="0.100000" height="0.250000" />
+						<point pos="-0.022095 0.400101 -0.526611" range="0.375000" height="0.937500" />
+				</container>
+		</group>
+		<group name="Land_Roadblock_WoodenCrate" lootmax="1">
+				<usage name="Police" />
+				<usage name="Military" />
+				<usage name="Medic" />
+				<container name="loot" lootmax="1">
+						<category name="tools" />
+						<category name="clothes" />
+						<category name="weapons" />
+						<tag name="shelves" />
+						<point pos="0.288574 0.332373 0.025391" range="0.375000" height="0.937500" />
+						<point pos="-0.511108 0.332373 -0.242920" range="0.134375" height="0.335938" />
+				</container>
+		</group>
 		<group name="Land_Shed_M1" lootmax="2">
 				<usage name="Industrial" />
 				<usage name="Farm" />
@@ -14706,6 +14735,19 @@
                         <proxy type="HatchbackTrunk_WhiteRust" pos="1.726 0.304000 -0.05" rpy="20.0 180.0 0.0" />
 				</dispatch>
 		</group>
+		<group name="Land_Wreck_hb01_aban1_police" lootmax="6">
+				<usage name="Police" />
+				<container name="lootFloor" lootmax="6">
+						<point pos="-0.540222 -0.679489 -0.667969" range="0.100000" height="0.250000" />
+						<point pos="-0.476318 -0.739979 0.525146" range="0.111450" height="0.278625" />
+						<point pos="-0.735535 -0.044003 0.669189" range="0.100000" height="0.250000" />
+						<point pos="-0.096192 -0.355497 0.336914" range="0.263031" height="0.257578" />
+						<point pos="1.494629 -0.463882 0.198730" range="0.279175" height="0.257937" />
+						<point pos="1.486755 -0.432333 -0.408936" range="0.271362" height="0.258406" />
+						<point pos="-0.748840 0.030724 -0.784180" range="0.100000" height="0.250000" />
+						<point pos="-0.066528 -0.325441 -0.525635" range="0.235687" height="0.259218" />
+				</container>
+		</group>
 		<group name="Land_Wreck_hb01_aban2_blue" lootmax="2">
 				<usage name="Village" />
 				<usage name="Farm" />
@@ -14787,6 +14829,19 @@
 						<proxy type="HatchbackDoors_CoDriver_WhiteRust" pos="-0.35 -0.01 1.340" rpy="0.0 -240.0 0.0" />
 						<proxy type="HatchbackHood_WhiteRust" pos="-1.451 0.095 0.05" rpy="1.0 180.0 0.0" />
 				</dispatch>
+		</group>
+		<group name="Land_Wreck_hb01_aban2_police" lootmax="6">
+				<usage name="Police" />
+				<container name="lootFloor" lootmax="6">
+						<point pos="-0.651092 -0.542667 -0.499023" range="0.100000" height="0.250000" />
+						<point pos="-0.585052 -0.508253 0.675537" range="0.100000" height="0.250000" />
+						<point pos="1.480774 -0.259859 0.401367" range="0.203125" height="0.257813" />
+						<point pos="1.488983 -0.290457 -0.208740" range="0.203125" height="0.257813" />
+						<point pos="-0.802338 0.130041 -0.661621" range="0.100000" height="0.250000" />
+						<point pos="-0.786927 0.200649 0.795654" range="0.100000" height="0.250000" />
+						<point pos="-0.138123 -0.139936 0.528320" range="0.203125" height="0.257813" />
+						<point pos="-0.099457 -0.181223 -0.336426" range="0.201874" height="0.254684" />
+				</container>
 		</group>
 		<group name="Land_Wreck_hb02_aban1_red" lootmax="2">
 				<usage name="Village" />
