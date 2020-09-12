@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 
 <spawnabletypes>
-	<damage min="0.0" max="0.5" />
+	<damage min="0.0" max="0.4" />
 	<type name="Barrel_Blue">
 		<hoarder />
 	</type>

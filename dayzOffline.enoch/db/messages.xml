@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <messages>    
     <message>
-        <deadline>720</deadline>
+        <deadline>180</deadline>
         <shutdown>1</shutdown>
         <text>This server will restart in #tmin minutes.</text>
     </message>
@@ -12,27 +12,39 @@
         <text>Welcome to DayZ!</text>
     </message>
     <message>
-        <onconnect>2</onconnect>
+        <onconnect>1</onconnect>
         <delay>10</delay>
         <repeat>30</repeat>
         <text>&lt;You are cold&gt;</text>
     </message>
     <message>
-        <onconnect>3</onconnect>
-        <delay>10</delay>
+        <onconnect>1</onconnect>
+        <delay>12</delay>
         <repeat>30</repeat>
         <text>&lt;You are tired&gt;</text>
     </message>    
     <message>
-        <onconnect>4</onconnect>
-        <delay>10</delay>
+        <onconnect>1</onconnect>
+        <delay>14</delay>
         <repeat>30</repeat>
         <text>&lt;You are hungry&gt;</text>
     </message>    
     <message>
-        <onconnect>5</onconnect>
-        <delay>10</delay>
+        <onconnect>1</onconnect>
+        <delay>16</delay>
         <repeat>30</repeat>
-        <text>&lt;Can you survive?&gt;</text>
+        <text>Can you SURVIVE?</text>
+    </message>
+    <message>
+        <onconnect>1</onconnect>
+        <delay>18</delay>
+        <repeat>30</repeat>
+        <text>Just GIVE UP, take the EASY way OUT!</text>
+    </message>
+    <message>
+        <onconnect>1</onconnect>
+        <delay>18</delay>
+        <repeat>30</repeat>
+        <text>THERE IS NO ONE ... LIKE YOU ... LEFT!</text>
     </message>
 </messages>
