@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <messages>    
     <message>
-        <deadline>180</deadline>
+        <deadline>360</deadline>
         <shutdown>1</shutdown>
         <text>This server will restart in #tmin minutes.</text>
     </message>
@@ -15,7 +15,7 @@
         <onconnect>1</onconnect>
         <delay>10</delay>
         <repeat>30</repeat>
-        <text>Join our discord https://discord.gg/cekt7Jk Give Suggestions, and read rules!</text>
+        <text>Join our discord https://discord.gg/cekt7Jk Give Suggestions and Feedback!</text>
     </message>
     <message>
         <onconnect>1</onconnect>

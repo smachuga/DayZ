@@ -43,7 +43,7 @@
     </message>
     <message>
         <onconnect>1</onconnect>
-        <delay>18</delay>
+        <delay>20</delay>
         <repeat>30</repeat>
         <text>THERE IS NO ONE ... LIKE YOU ... LEFT!</text>
     </message>

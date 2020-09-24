@@ -234,11 +234,9 @@
 				<item name="DirtBikeHelmet_Chernarus" chance="0.10" />
 				<item name="BeanieHat_Black" chance="0.10" />
 				<item name="CowboyHat_Brown" chance="0.10" />
-				<item name="ZmijovkaCap_Black" chance="0.10" />
-				<item name="ZmijovkaCap_Blue" chance="0.10" />
-				<item name="ZmijovkaCap_Brown" chance="0.10" />
-				<item name="ZmijovkaCap_Green" chance="0.10" />
-				<item name="ZmijovkaCap_Red" chance="0.10" />
+				<item name="CowboyHat_Black" chance="0.10" />
+				<item name="CowboyHat_DarkBrown" chance="0.10" />
+				<item name="CowboyHat_Green" chance="0.10" />
 				<item name="RadarCap_Black" chance="0.10" />
 				<item name="RadarCap_Blue" chance="0.10" />
 				<item name="RadarCap_Brown" chance="0.10" />

@@ -57,7 +57,6 @@
 				<item name="Rope" chance="0.07" />
 				<item name="Rag" chance="0.07" />
 				<item name="Flashlight" chance="0.07" />
-				<item name="WoodAxe" chance="0.10" />
 		</cargo>
 		<cargo chance="0.50" name="toolsCity"> <!--same as the one above - just preparing -->
 				<item name="DuctTape" chance="0.20" />
@@ -68,10 +67,8 @@
 				<item name="Rope" chance="0.07" />
 				<item name="Rag" chance="0.07" />
 				<item name="Flashlight" chance="0.07" />
-				<item name="WoodAxe" chance="0.10" />
 		</cargo>
 		<cargo chance="0.65" name="toolsMedic">
-				<item name="Rag" chance="0.07" />
 				<item name="SalineBag" chance="0.07" />
 				<item name="BandageDressing" chance="0.14" />
 				<item name="BloodBagEmpty" chance="0.1" />
@@ -109,13 +106,13 @@
 				<item name="VitaminBottle" chance="0.10" />
 		</cargo>
 		<cargo chance="0.90" name="toolsIndustrial">
+				<item name="DuctTape" chance="0.2" />
+				<item name="NailBox" chance="0.2" />
 				<item name="Hatchet" chance="0.2" />
 				<item name="Hammer" chance="0.2" />
 				<item name="Rope" chance="0.1" />
-				<item name="DuctTape" chance="0.2" />
 				<item name="Battery9V" chance="0.2" />
 				<item name="Flashlight" chance="0.2" />
-				<item name="NailBox" chance="0.2" />
 		</cargo>
 		<cargo chance="0.50" name="ammoCivil">
 				<item name="Ammo_357" chance="0.22" />
@@ -134,6 +131,8 @@
 				<item name="AmmoBox_9x19_25Rnd" chance="0.1" />
 				<item name="Ammo_45ACP" chance="0.3" />
 				<item name="AmmoBox_45ACP_25Rnd" chance="0.1" />
+				<item name="Ammo_357" chance="0.12" />
+				<item name="AmmoBox_357_20Rnd" chance="0.08" />
 		</cargo>
 		<cargo chance="0.25" name="ammoArmy">
 				<item name="Ammo_45ACP" chance="0.2" />
@@ -255,11 +254,14 @@
 				<item name="DirtBikeHelmet_Chernarus" chance="0.10" />
 				<item name="BeanieHat_Black" chance="0.10" />
 				<item name="CowboyHat_Brown" chance="0.10" />
-				<item name="ZmijovkaCap_Black" chance="0.10" />
-				<item name="ZmijovkaCap_Blue" chance="0.10" />
-				<item name="ZmijovkaCap_Brown" chance="0.10" />
-				<item name="ZmijovkaCap_Green" chance="0.10" />
-				<item name="ZmijovkaCap_Red" chance="0.10" />
+				<item name="FlatCap_Black" chance="0.10" />
+				<item name="FlatCap_Blue" chance="0.10" />
+				<item name="FlatCap_Red" chance="0.10" />
+				<item name="FlatCap_Brown" chance="0.10" />
+				<item name="FlatCap_Grey" chance="0.10" />
+				<item name="FlatCap_BrownCheck" chance="0.10" />
+				<item name="FlatCap_GreyCheck" chance="0.10" />
+				<item name="FlatCap_BlackCheck" chance="0.10" />
 				<item name="RadarCap_Black" chance="0.10" />
 				<item name="RadarCap_Blue" chance="0.10" />
 				<item name="RadarCap_Brown" chance="0.10" />

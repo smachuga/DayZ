@@ -53,7 +53,23 @@
 	<type name="WoodenCrate">
 		<hoarder />
 	</type>
+	<type name="DirtBikeHelmet_Black">
+		<attachments chance="0.50">
+			<item name="DirtBikeHelmet_Mouthguard" chance="1.00" />
+		</attachments>
+		<attachments chance="0.75">
+			<item name="DirtBikeHelmet_Visor" chance="1.00" />
+		</attachments>
+	</type>
 	<type name="DirtBikeHelmet_Chernarus">
+		<attachments chance="0.50">
+			<item name="DirtBikeHelmet_Mouthguard" chance="1.00" />
+		</attachments>
+		<attachments chance="0.75">
+			<item name="DirtBikeHelmet_Visor" chance="1.00" />
+		</attachments>
+	</type>	
+	<type name="DirtBikeHelmet_Green">
 		<attachments chance="0.50">
 			<item name="DirtBikeHelmet_Mouthguard" chance="1.00" />
 		</attachments>
@@ -783,6 +799,46 @@
 		<cargo preset="toolsCity" />
 	</type>
 	<type name="NBCJacketGray">
+	</type>	
+	<type name="Flashlight">
+		<attachments chance="1.00">
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="UniversalLight">
+		<attachments chance="1.00">
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Headtorch_Black">
+		<attachments chance="1.00">
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Headtorch_Grey">
+		<attachments chance="1.00">
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="NVGoggles">
+		<attachments chance="1.00">
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="PersonalRadio">
+		<attachments chance="0.30">
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
+	</type>	
+	<type name="GorkaHelmet">
+		<attachments chance="0.50">
+			<item name="GorkaHelmetVisor"  chance="1.00" />
+		</attachments>
+	</type>
+	<type name="GorkaHelmet_Black">
+		<attachments chance="0.25">
+			<item name="GorkaHelmetVisor"  chance="1.00" />
+		</attachments>
 	</type>
 	<!--START OF ZOMBIES  -->
 	<!-- -----------------------------ARMY----------------------------- -->
@@ -1805,16 +1861,6 @@
 			<item name="Mag_Glock_15Rnd" chance="1.00" />
 		</attachments>
 	</type>
-	<type name="GorkaHelmet">
-		<attachments chance="0.75">
-			<item name="GorkaHelmetVisor"  chance="1.00" />
-		</attachments>
-	</type>
-	<type name="GorkaHelmet_Black">
-		<attachments chance="0.75">
-			<item name="GorkaHelmetVisor"  chance="1.00" />
-		</attachments>
-	</type>
 	<type name="FNX45">
 		<attachments chance="1.00">
 			<item name="Mag_FNX45_15Rnd" chance="1.00" />
@@ -2296,36 +2342,6 @@
 	</type>
 -->
 	<!--  END OF WEAPONS  -->
-	<type name="Flashlight">
-		<attachments chance="1.00">
-			<item name="Battery9V" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="UniversalLight">
-		<attachments chance="1.00">
-			<item name="Battery9V" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="Headtorch_Black">
-		<attachments chance="1.00">
-			<item name="Battery9V" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="Headtorch_Grey">
-		<attachments chance="1.00">
-			<item name="Battery9V" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="NVGoggles">
-		<attachments chance="1.00">
-			<item name="Battery9V" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="PersonalRadio">
-		<attachments chance="0.30">
-			<item name="Battery9V" chance="1.00" />
-		</attachments>
-	</type>
 	<!-- XMAS -->
 	<type name="GiftBox_Small_1">
 		<cargo chance="0.35">
