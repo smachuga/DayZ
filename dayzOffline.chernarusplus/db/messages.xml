@@ -1,26 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <messages>    
     <message>
-        <deadline>360</deadline>
+        <deadline>240</deadline>
         <shutdown>1</shutdown>
         <text>This server will restart in #tmin minutes.</text>
     </message>
     <message>        
         <onconnect>1</onconnect>
         <delay>5</delay>	
-        <repeat>30</repeat>
+        <repeat>60</repeat>
         <text>Welcome to DayZ!</text>
-    </message>
-    <message>
-        <onconnect>1</onconnect>
-        <delay>10</delay>
-        <repeat>30</repeat>
-        <text>Join our discord https://discord.gg/cekt7Jk Give Suggestions and Feedback!</text>
-    </message>
-    <message>
-        <onconnect>1</onconnect>
-        <delay>15</delay>
-        <repeat>30</repeat>
-        <text>Please support our server. Go to nitrado xbox app, select boosting tab, and donate with this code L05IH5U0</text>
     </message>
 </messages>
