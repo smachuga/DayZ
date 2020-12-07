@@ -1083,16 +1083,6 @@
 		<pos x="9901.132813" z="5467.663574" a="102.445946" />
 		<pos x="10257.797851" z="3617.499512" a="270.770691" />
 	</event>
-	<event name="MyTruck">
-		<pos x="4258.4" z="11125.9" a="0" />
-		<pos x="4103.04" z="10976.81" a="0" />
-		<pos x="4271.23" z="11100.28" a="0" />
-	</event>
-	<event name="MyCar">
-		<pos x="4258.4" z="11125.9" a="0" />
-		<pos x="4103.04" z="10976.81" a="0" />
-		<pos x="4271.23" z="11100.28" a="0" />
-	</event>
     <event name="VehicleTransitBus" />
     <event name="InfectedVillage" />
     <event name="InfectedSolitude" />
