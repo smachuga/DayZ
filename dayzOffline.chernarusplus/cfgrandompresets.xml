@@ -1,5 +1,78 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <randompresets>
+    <cargo chance="1.00" name="Tresure_1">
+        <item name="Matchbox" chance="0.1" />
+        <item name="SteakKnife" chance="0.2" />
+        <item name="KitchenKnife" chance="0.1" />
+        <item name="FryingPan" chance="0.20" />
+        <item name="Rag" chance="0.15" />
+        <item name="Pot" chance="0.05" />
+    </cargo>
+    <cargo chance="1.00" name="Tresure_2">
+        <item name="DuctTape" chance="0.07" />
+        <item name="Battery9V" chance="0.07" />
+        <item name="Paper" chance="0.1" />
+        <item name="Flashlight" chance="0.1" />
+        <item name="Matchbox" chance="0.07" />
+        <item name="Roadflare" chance="0.1" />
+        <item name="NailBox" chance="0.1" />
+        <item name="KitchenKnife" chance="0.05" />
+        <item name="CanOpener" chance="0.05" />
+        <item name="BandageDressing" chance="0.05" />
+        <item name="Ammo_380" chance="0.22" />
+        <item name="AmmoBox_380_35Rnd" chance="0.08" />
+        <item name="Ammo_9x19" chance="0.15" />
+        <item name="AmmoBox_9x19_25Rnd" chance="0.08" />
+        <item name="Ammo_762x39" chance="0.12" />
+        <item name="AmmoBox_762x39_20Rnd" chance="0.02" />
+        <item name="Ammo_762x54" chance="0.08" />
+        <item name="AmmoBox_762x54_20Rnd" chance="0.02" />
+        <item name="SodaCan_Cola" chance="0.09" />
+        <item name="SodaCan_Pipsi" chance="0.09" />
+        <item name="SodaCan_Spite" chance="0.09" />
+        <item name="TunaCan" chance="0.10" />
+        <item name="SardinesCan" chance="0.09" />
+        <item name="PeachesCan" chance="0.10" />
+        <item name="SpaghettiCan" chance="0.09" />
+        <item name="BakedBeansCan" chance="0.10" />
+    </cargo>
+    <cargo chance="1.00" name="Tresure_3">
+        <item name="SodaCan_Cola" chance="0.05" />
+        <item name="SodaCan_Pipsi" chance="0.05" />
+        <item name="SodaCan_Spite" chance="0.05" />
+        <item name="TunaCan" chance="0.1" />
+        <item name="SardinesCan" chance="0.05" />
+        <item name="PeachesCan" chance="0.05" />
+        <item name="SpaghettiCan" chance="0.05" />
+        <item name="BakedBeansCan" chance="0.05" />
+        <item name="TacticalBaconCan" chance="0.1" />
+        <item name="Canteen" chance="0.1" />
+        <item name="Ammo_45ACP" chance="0.2" />
+        <item name="AmmoBox_45ACP_25Rnd" chance="0.05" />
+        <item name="Ammo_762x39" chance="0.2" />
+        <item name="AmmoBox_762x39_20Rnd" chance="0.05" />
+        <item name="Ammo_762x54" chance="0.2" />
+        <item name="AmmoBox_762x54_20Rnd" chance="0.05" />
+    </cargo>
+    <cargo chance="1.00" name="Tresure_4">
+        <item name="RDG2SmokeGrenade_White" chance="0.25" />
+        <item name="FlashGrenade" chance="0.25" />
+        <item name="RDG2SmokeGrenade_Black" chance="0.25" />
+        <item name="RDG5Grenade" chance="0.25" />
+    </cargo>
+    <cargo chance="0.75" name="Tresure_5">
+        <item name="FAL" chance="0.20" />
+        <item name="SVD" chance="0.20" />
+        <item name="M4A1" chance="0.20" />
+        <item name="VSS" chance="0.20" />
+        <item name="ASVAL" chance="0.20" />
+    </cargo>
+    <cargo chance="0.75" name="Tresure_6">
+        <item name="GhillieHood_Mossy" chance="0.25" />
+        <item name="GhillieTop_Mossy" chance="0.25" />
+        <item name="GhillieBushrag_Mossy" chance="0.25" />
+        <item name="GhillieSuit_Mossy" chance="0.25" />
+    </cargo>
 		<cargo chance="0.15" name="foodHermit">
 				<item name="TunaCan" chance="0.11" />
 				<item name="SardinesCan" chance="0.11" />
@@ -81,8 +154,7 @@
 				<item name="TetracyclineAntibiotics" chance="0.1" />
 				<item name="Thermometer" chance="0.05" />
 		</cargo>
-		<cargo chance="0.15" name="toolsPolice">
-				<item name="Paper" chance="0.05" />
+		<cargo chance="0.25" name="toolsPolice">
 				<item name="Battery9V" chance="0.1" />
 				<item name="PersonalRadio" chance="0.1" />
 				<item name="Flashlight" chance="0.15" />
@@ -127,8 +199,8 @@
 		<cargo chance="0.3" name="ammoPolice">
 				<item name="Ammo_9x19" chance="0.3" />
 				<item name="AmmoBox_9x19_25Rnd" chance="0.1" />
-				<item name="Ammo_45ACP" chance="0.3" />
-				<item name="AmmoBox_45ACP_25Rnd" chance="0.1" />
+				<item name="Ammo_556x45" chance="0.3" />
+				<item name="AmmoBox_556x45_20Rnd" chance="0.1" />
 		</cargo>
 		<cargo chance="0.25" name="ammoArmy">
 				<item name="Ammo_45ACP" chance="0.2" />
@@ -441,25 +513,29 @@
 				<item name="SodaCan_Pipsi" chance="0.10" />
 				<item name="SodaCan_Spite" chance="0.10" />
 				<item name="SodaCan_Kvass" chance="0.10" />
+				<item name="SodaCan_Franta" chance="0.10" />
 				<item name="WaterBottle" chance="0.1" />
 		</cargo>
-		<cargo chance="0.22" name="food_T1">		
+		<cargo chance="0.20" name="food_T1">		
 				<item name="HumanSteakMeat" chance="0.03" />
 				<item name="Guts" chance="0.03" />
-				<item name="Potato" chance="0.1" />
+				<item name="PotatoSeed" chance="0.1" />
 				<item name="Zucchini" chance="0.1" />
 				<item name="Tomato" chance="0.1" />
 				<item name="GreenBellPepper" chance="0.1" />
 				<item name="PowderedMilk" chance="0.1" />
-				<item name="TunaCan" chance="0.3" />
+				<item name="Pajka" chance="0.1" />
+				<item name="Pate" chance="0.1" />
+				<item name="BrisketSpread" chance="0.1" />
+				<item name="Pajka" chance="0.1" />
+				<item name="SaltySticks" chance="0.2" />
+				<item name="Crackers" chance="0.2" />
+				<item name="Chips" chance="0.2" />
 		</cargo>
-		<cargo chance="0.25" name="toolsCommon_T1">
+		<cargo chance="0.20" name="toolsCommon_T1">
 				<item name="Matchbox" chance="0.1" />
 				<item name="SteakKnife" chance="0.2" />
-				<item name="KitchenKnife" chance="0.1" />
-				<item name="FryingPan" chance="0.20" />
 				<item name="Rag" chance="0.15" />
-				<item name="Pot" chance="0.05" />
 		</cargo>
 		<cargo chance="0.15" name="toolsIndustrial_T1">
 				<item name="Rag" chance="0.1" />
