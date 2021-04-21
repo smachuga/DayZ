@@ -12,6 +12,16 @@
 				<default name="clusterMatrix" de="TrajectoryStumps" width="12" height="12"/>
 -->
 		</defaults>
+		<group name="Static_misc_gunrack" lootmax="2">
+			<container name="lootFloor" lootmax="2">
+			</container>
+			<dispatch>
+				<proxy type="AK101_Black" pos="0.310000 0.040000 0.315000" rpy="0 0 -90" />
+				<proxy type="CZ527_Green" pos="-0.310000 0.040000 0.315000" rpy="0 0 -90" />
+				<proxy type="Winchester70_Black" pos="-0.310000 0.040000 -0.230000" rpy="0 0 -90" />
+				<proxy type="SKS_Green" pos="0.310000 0.040000 -0.230000" rpy="0 0 -90" />
+			</dispatch>
+		</group>
 		<group name="Land_Roadblock_Table" lootmax="1">
 				<usage name="Police" />
 				<usage name="Military" />

@@ -9,6 +9,7 @@
         <category name="weapons"/>
         <category name="books"/>
         <category name="explosives"/>
+        <category name="RackWeapon"/>
     </categories>
     <tags>
         <tag name="floor"/>
@@ -31,6 +32,7 @@
         <usage name="Prison"/>
         <usage name="Lunapark"/>
         <usage name="SeasonalEvent"/>
+        <usage name="Racked"/>
     </usageflags>
     <valueflags>
         <value name="Tier1"/>
